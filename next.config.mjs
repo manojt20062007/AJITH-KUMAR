@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
+  basePath: process.env.GITHUB_ACTIONS ? "/AJITH-KUMAR" : "",
   images: { unoptimized: true },
   reactStrictMode: false,
   eslint: { ignoreDuringBuilds: true },
