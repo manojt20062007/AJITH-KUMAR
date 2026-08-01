@@ -242,6 +242,7 @@ export default function Page() {
                 <span className="inline-block whitespace-pre text-nowrap" data-cid="n79">
                   R
                 </span>
+                {" "}
                 <span className="inline-block text-primary whitespace-nowrap text-nowrap [text-shadow:var(--clr-8)_0px_0px_20px,_var(--clr-9)_0px_0px_45px]" data-cid="n89">
                   <span className="inline-block whitespace-pre" data-cid="n90">
                     P
@@ -447,7 +448,7 @@ export default function Page() {
         </div>
         {" "}
       </section>
-      
+
     </>
   );
 }
