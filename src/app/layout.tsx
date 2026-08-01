@@ -44,7 +44,7 @@ function NavLink({ d, cids, styles }: { d: NavLinkData; cids: string[]; styles: 
 }
 
 const NavLink_data = [
-  { href: "/index.html", label: "Home" },
+  { href: "/", label: "Home" },
   { href: "/about.html", label: "About Us" },
   { href: "/works.html", label: "Our Works" },
   { href: "/career.html", label: "Careers" },
