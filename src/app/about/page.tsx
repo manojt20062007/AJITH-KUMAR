@@ -14,7 +14,7 @@ const FeatureCard_data = [
 const ListRow_data = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About Us" },
-  { href: "/works", label: "Our Works" },
+  { href: "/works", label: "MY WORKS" },
   { href: "/contact", label: "Contact Us" }
 ];
 const ListRow2_data = [

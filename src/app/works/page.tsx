@@ -23,7 +23,7 @@ const MediaCard_data = [
 const ListRow_data = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About Us" },
-  { href: "/works", label: "Our Works" },
+  { href: "/works", label: "MY  Works" },
   { href: "/contact", label: "Contact Us" }
 ];
 const ListRow2_data = [
@@ -94,18 +94,18 @@ export default function Page() {
         {" "}
         <div className="block relative z-10 max-w-320 mx-auto py-16 px-8 text-left max-lg:max-w-full max-md:mx-0" data-cid="n28">
           <span className="border border-solid border-color-006 inline-block mb-6 py-[0.4rem] px-4 rounded-[50px] text-primary [font-family:Outfit,_sans-serif] text-xs font-bold leading-[0.9375rem] tracking-[3.46px] uppercase" data-cid="n29">
-            FOCUS VFX STUDIO — PORTFOLIO
+            Ajith kumar  — PORTFOLIO
           </span>
           {" "}
           <h1 className="block mb-6 text-[5.625rem] font-black leading-[5.3125rem] tracking-[-1.79px] uppercase max-lg:text-5xl max-lg:leading-[2.875rem] max-lg:tracking-[-0.96px] 2xl:text-[6.5rem] 2xl:leading-[6.1875rem] 2xl:tracking-[-2.08px]" data-cid="n30" data-component="heading">
-            {"OUR "}
+            {"MY  "}
             <span className="inline text-primary [text-shadow:var(--clr-9)_0px_0px_50px]" data-cid="n31">
               WORKS
             </span>
           </h1>
           {" "}
           <p className="border-l-[3px] border-solid border-l-primary block max-w-162.5 mb-10 pl-5 text-color-014 text-[1.1875rem] leading-[2.0625rem] max-lg:leading-[1.6875rem] max-lg:[font-size:inherit]" data-cid="n32">
-            Browse through our premium cinematic projects delivered for global cinema.
+            Browse through my premium cinematic projects delivered for global cinema.
           </p>
           {" "}
         </div>
@@ -126,9 +126,7 @@ export default function Page() {
             <button className="border border-solid border-primary block py-2.5 px-6 [font-family:Outfit,_sans-serif] text-lg font-bold leading-[1.4375rem] tracking-[1.76px] text-center capitalize bg-clr-27 shadow-[var(--accent)_0px_0px_15px_0px] cursor-pointer" data-cid="n39" data-component="button">
               Posters
             </button>
-            <button className="border border-solid border-surface-2 block py-2.5 px-6 [font-family:Outfit,_sans-serif] text-lg font-bold leading-[1.4375rem] tracking-[1.76px] text-center capitalize cursor-pointer" data-cid="n40" data-component="button">
-              Show Reels
-            </button>
+
           </div>
           {" "}
           <div className="h-902.5 min-h-100 grid items-start gap-8 grid-cols-[repeat(auto-fit,_minmax(326px,_1fr))] grid-rows-6 max-md:h-[584.6875rem] max-md:grid-rows-18 md:max-lg:h-[305.6875rem] md:max-lg:grid-rows-9" data-cid="n41" id="works-grid">
@@ -292,7 +290,7 @@ export default function Page() {
         </div>
         {" "}
       </section>
-      
+
     </>
   );
 }

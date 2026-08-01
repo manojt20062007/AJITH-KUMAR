@@ -6,7 +6,7 @@ import { ListRow2 } from "./list-row2";
 const ListRow_data = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about" },
-  { label: "Our Works", href: "/works" },
+  { label: "MY WORKS", href: "/works" },
   { label: "Contact Us", href: "/contact" }
 ];
 
@@ -23,7 +23,7 @@ export default function Footer() {
     <footer className="border-t border-solid border-t-border block relative z-10 pt-20 pb-8 bg-background" id="site-footer">
       <div className="block max-w-320 px-8 mx-auto w-full max-lg:max-w-full">
         <div className="grid mb-16 gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-lg:gap-10 max-lg:text-center">
-          
+
           <div className="flex flex-col max-lg:items-center">
             <a className="h-26 block cursor-pointer" href="/">
               <img className="w-46.5 h-20 block max-w-full mb-6 overflow-clip [filter:drop-shadow(var(--clr-0)_0px_0px_5px)]" alt="Focus VFX Studio" src="/assets/cloned/images/f068e3c48022.png" />
