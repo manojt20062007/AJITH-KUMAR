@@ -56,11 +56,11 @@ const FeatureCard_data = [
   { title: "Client Satisfaction", description: "Collaborating closely with directors and producers to bring their vision to absolute\n            life." }
 ];
 const ListRow_data = [
-  { href: "/index.html", label: "Home" },
-  { href: "/about.html", label: "About Us" },
-  { href: "/works.html", label: "Our Works" },
-  { href: "/career.html", label: "Careers" },
-  { href: "/contact.html", label: "Contact Us" }
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About Us" },
+  { href: "/works", label: "Our Works" },
+  { href: "/career", label: "Careers" },
+  { href: "/contact", label: "Contact Us" }
 ];
 const ListRow2_data = [
   { label: "PREP" },
@@ -285,7 +285,7 @@ export default function Page() {
 
             {" "}
             <div className="flex flex-wrap gap-4" data-cid="n102">
-              <a className="w-[211.5px] h-[2.5625rem] border border-solid border-clr-4 flex relative z-1 opacity-0 py-3 px-8 rounded-[50px] justify-center items-center overflow-hidden text-background text-[0.8125rem] font-bold leading-[0.9375rem] tracking-[1.28px] uppercase bg-primary shadow-[var(--clr-10)_0px_0px_20px_0px] transform-[matrix(0.95,0,0,0.95,0,20)] origin-[105.742px_20.5px] cursor-pointer" data-cid="n103" href="/works.html">
+              <a className="w-[211.5px] h-[2.5625rem] border border-solid border-clr-4 flex relative z-1 opacity-0 py-3 px-8 rounded-[50px] justify-center items-center overflow-hidden text-background text-[0.8125rem] font-bold leading-[0.9375rem] tracking-[1.28px] uppercase bg-primary shadow-[var(--clr-10)_0px_0px_20px_0px] transform-[matrix(0.95,0,0,0.95,0,20)] origin-[105.742px_20.5px] cursor-pointer" data-cid="n103" href="/works">
                 {"VIEW OUR WORK "}
                 <i className="block ml-2 [font-family:'Font_Awesome_6_Free'] font-black leading-[0.8125rem] before:content-[''] before:text-background before:text-[0.8125rem] before:font-black before:leading-[0.8125rem] before:tracking-[1.28px]" data-cid="n104" />
               </a>
@@ -325,7 +325,7 @@ export default function Page() {
               OUR EXPERTISE
             </h2>
             {" "}
-            <a className="w-[200.7px] border border-solid border-surface-4 flex relative z-1 py-3 px-8 rounded-[50px] justify-center items-center overflow-hidden text-[0.8125rem] font-semibold leading-[0.9375rem] tracking-[1.28px] uppercase cursor-pointer max-md:w-[99.5px] md:max-lg:w-[492.5px]" data-cid="n128" data-component="button" href="/contact.html">
+            <a className="w-[200.7px] border border-solid border-surface-4 flex relative z-1 py-3 px-8 rounded-[50px] justify-center items-center overflow-hidden text-[0.8125rem] font-semibold leading-[0.9375rem] tracking-[1.28px] uppercase cursor-pointer max-md:w-[99.5px] md:max-lg:w-[492.5px]" data-cid="n128" data-component="button" href="/contact">
               {"WORK WITH US "}
               <i className="block ml-2 [font-family:'Font_Awesome_6_Free'] font-black leading-[0.8125rem] before:content-[''] before:text-foreground before:text-[0.8125rem] before:font-black before:leading-[0.8125rem] before:tracking-[1.28px]" data-cid="n129" />
             </a>
@@ -347,7 +347,7 @@ export default function Page() {
               LATEST WORK
             </h2>
             {" "}
-            <a className="w-[12.9375rem] border border-solid border-surface-4 flex relative z-1 py-3 px-8 rounded-[50px] justify-center items-center overflow-hidden text-[0.8125rem] font-semibold leading-[0.9375rem] tracking-[1.28px] uppercase cursor-pointer max-md:w-[163.3px] md:max-lg:w-[31.85rem]" data-cid="n156" data-component="button" href="/works.html">
+            <a className="w-[12.9375rem] border border-solid border-surface-4 flex relative z-1 py-3 px-8 rounded-[50px] justify-center items-center overflow-hidden text-[0.8125rem] font-semibold leading-[0.9375rem] tracking-[1.28px] uppercase cursor-pointer max-md:w-[163.3px] md:max-lg:w-[31.85rem]" data-cid="n156" data-component="button" href="/works">
               {"VIEW ALL WORK "}
               <i className="block ml-2 [font-family:'Font_Awesome_6_Free'] font-black leading-[0.8125rem] before:content-[''] before:text-foreground before:text-[0.8125rem] before:font-black before:leading-[0.8125rem] before:tracking-[1.28px]" data-cid="n157" />
             </a>
@@ -434,11 +434,11 @@ export default function Page() {
           </p>
           {" "}
           <div className="flex flex-wrap justify-center gap-4 max-lg:flex-col" data-cid="n598">
-            <a className="h-[2.5625rem] border border-solid border-clr-4 flex relative z-1 py-3 px-8 rounded-[50px] justify-center items-center overflow-hidden text-background text-[0.8125rem] font-bold leading-[0.9375rem] tracking-[1.28px] uppercase bg-primary shadow-[var(--clr-10)_0px_0px_20px_0px] cursor-pointer" data-cid="n599" data-component="button" href="/contact.html">
+            <a className="h-[2.5625rem] border border-solid border-clr-4 flex relative z-1 py-3 px-8 rounded-[50px] justify-center items-center overflow-hidden text-background text-[0.8125rem] font-bold leading-[0.9375rem] tracking-[1.28px] uppercase bg-primary shadow-[var(--clr-10)_0px_0px_20px_0px] cursor-pointer" data-cid="n599" data-component="button" href="/contact">
               START A PROJECT
             </a>
             {" "}
-            <a className="h-[2.5625rem] border border-solid border-surface-3 flex relative z-1 py-3 px-8 rounded-[50px] justify-center items-center overflow-hidden text-[0.8125rem] font-semibold leading-[0.9375rem] tracking-[1.28px] uppercase cursor-pointer" data-cid="n600" data-component="button" href="/works.html">
+            <a className="h-[2.5625rem] border border-solid border-surface-3 flex relative z-1 py-3 px-8 rounded-[50px] justify-center items-center overflow-hidden text-[0.8125rem] font-semibold leading-[0.9375rem] tracking-[1.28px] uppercase cursor-pointer" data-cid="n600" data-component="button" href="/works">
               VIEW OUR WORK
             </a>
             {" "}
@@ -452,7 +452,7 @@ export default function Page() {
           <div className="block max-w-320 px-8 max-lg:max-w-full 2xl:mx-80" data-cid="n603">
             <div className="grid mb-16 gap-12 grid-cols-[357.328px_178.672px_214.391px_321.609px] max-lg:gap-10 max-lg:text-center max-lg:grid-cols-1" data-cid="n604">
               <div className="flex flex-col max-lg:items-center" data-cid="n605">
-                <a className="h-26 block cursor-pointer" data-cid="n606" data-component="link" href="/index.html">
+                <a className="h-26 block cursor-pointer" data-cid="n606" data-component="link" href="/">
                   {" "}
                   <img className="w-46.5 h-20 block max-w-full mb-6 overflow-clip [filter:drop-shadow(var(--clr-0)_0px_0px_5px)]" data-cid="n607" data-component="image" alt="Focus VFX Studio" src="/assets/cloned/images/f068e3c48022.png" />
                   {" "}

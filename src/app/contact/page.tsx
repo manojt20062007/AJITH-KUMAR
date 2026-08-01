@@ -38,11 +38,11 @@ const Tile2_data = [
   { imgSrc: "/assets/cloned/images/71559f1b7b8b.png" }
 ];
 const ListRow_data = [
-  { href: "/index.html", label: "Home" },
-  { href: "/about.html", label: "About Us" },
-  { href: "/works.html", label: "Our Works" },
-  { href: "/career.html", label: "Careers" },
-  { href: "/contact.html", label: "Contact Us" }
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About Us" },
+  { href: "/works", label: "Our Works" },
+  { href: "/career", label: "Careers" },
+  { href: "/contact", label: "Contact Us" }
 ];
 const ListRow2_data = [
   { label: "PREP" },
@@ -374,7 +374,7 @@ export default function Page() {
           <div className="block max-w-320 px-8 max-lg:max-w-full 2xl:mx-80" data-cid="n143">
             <div className="grid mb-16 gap-12 grid-cols-[357.328px_178.672px_214.391px_321.609px] max-lg:gap-10 max-lg:text-center max-lg:grid-cols-1" data-cid="n144">
               <div className="flex flex-col max-lg:items-center" data-cid="n145">
-                <a className="h-26 block cursor-pointer" data-cid="n146" data-component="link" href="/index.html">
+                <a className="h-26 block cursor-pointer" data-cid="n146" data-component="link" href="/">
                   {" "}
                   <img className="w-46.5 h-20 block max-w-full mb-6 overflow-clip [filter:drop-shadow(var(--clr-0)_0px_0px_5px)]" data-cid="n147" data-component="image" alt="Focus VFX Studio" src="/assets/cloned/images/f068e3c48022.png" />
                   {" "}

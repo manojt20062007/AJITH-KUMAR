@@ -11,27 +11,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 1,
   },
   {
-    url: SITE_ORIGIN + "/about.html",
+    url: SITE_ORIGIN + "/about",
     changeFrequency: "weekly",
     priority: 0.7,
   },
   {
-    url: SITE_ORIGIN + "/career.html",
+    url: SITE_ORIGIN + "/career",
     changeFrequency: "weekly",
     priority: 0.7,
   },
   {
-    url: SITE_ORIGIN + "/contact.html",
+    url: SITE_ORIGIN + "/contact",
     changeFrequency: "weekly",
     priority: 0.7,
   },
   {
-    url: SITE_ORIGIN + "/index.html",
+    url: SITE_ORIGIN + "/",
     changeFrequency: "weekly",
     priority: 0.7,
   },
   {
-    url: SITE_ORIGIN + "/works.html",
+    url: SITE_ORIGIN + "/works",
     changeFrequency: "weekly",
     priority: 0.7,
   },

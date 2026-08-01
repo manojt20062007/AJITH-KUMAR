@@ -45,10 +45,10 @@ function NavLink({ d, cids, styles }: { d: NavLinkData; cids: string[]; styles: 
 
 const NavLink_data = [
   { href: "/", label: "Home" },
-  { href: "/about.html", label: "About Us" },
-  { href: "/works.html", label: "Our Works" },
-  { href: "/career.html", label: "Careers" },
-  { href: "/contact.html", label: "Contact Us" }
+  { href: "/about", label: "About Us" },
+  { href: "/works", label: "Our Works" },
+  { href: "/career", label: "Careers" },
+  { href: "/contact", label: "Contact Us" }
 ];
 
 const NavLink_cids: string[][] = [
@@ -75,7 +75,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <div className="block" data-cid="Ln1" id="header-placeholder">
           <header className="h-[8.9375rem] block fixed inset-x-0 z-1000 py-6 max-md:h-22 md:max-lg:h-24.5" data-cid="Ln2" id="site-header">
             <div className="h-full flex max-w-320 px-8 justify-between items-center max-lg:max-w-full 2xl:mx-80" data-cid="Ln3">
-              <a className="block cursor-pointer" data-cid="Ln4" href="/index.html">
+              <a className="block cursor-pointer" data-cid="Ln4" href="/">
                 {" "}
                 <img className="w-46.5 h-20 block max-w-full overflow-clip [filter:drop-shadow(var(--clr-0)_0px_0px_5px)] max-md:w-[5.8125rem] max-md:h-10 md:max-lg:w-29 md:max-lg:h-12.5" data-cid="Ln5" alt="Focus VFX Studio" src="/assets/cloned/images/f068e3c48022.png" />
                 {" "}
@@ -90,7 +90,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 {" "}
                 <ThemeToggleButton />
                 {" "}
-                <a className="h-[2.0625rem] border border-solid border-surface-3 flex relative z-1 py-2 px-5 rounded-[50px] justify-center items-center overflow-hidden text-xs font-semibold leading-[0.9375rem] tracking-[1.2px] uppercase cursor-pointer max-lg:hidden" data-cid="Ln16" href="/contact.html">
+                <a className="h-[2.0625rem] border border-solid border-surface-3 flex relative z-1 py-2 px-5 rounded-[50px] justify-center items-center overflow-hidden text-xs font-semibold leading-[0.9375rem] tracking-[1.2px] uppercase cursor-pointer max-lg:hidden" data-cid="Ln16" href="/contact">
                   Let's Talk
                 </a>
                 {" "}

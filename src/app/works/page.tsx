@@ -21,11 +21,11 @@ const MediaCard_data = [
   { alt: "Pushpa 2: The Rule", id: "card-img-pushpa-2-17", imgSrc: "/assets/cloned/images/09fb9509c5d4.jpg", title: "Pushpa 2: The Rule", description: "The highly anticipated sequel to Pushpa, depicting the clash of syndicates.", text: "Visual Effects", text2: "Crowd Multiplication", text3: "Compositing" }
 ];
 const ListRow_data = [
-  { href: "/index.html", label: "Home" },
-  { href: "/about.html", label: "About Us" },
-  { href: "/works.html", label: "Our Works" },
-  { href: "/career.html", label: "Careers" },
-  { href: "/contact.html", label: "Contact Us" }
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About Us" },
+  { href: "/works", label: "Our Works" },
+  { href: "/career", label: "Careers" },
+  { href: "/contact", label: "Contact Us" }
 ];
 const ListRow2_data = [
   { label: "PREP" },
@@ -284,7 +284,7 @@ export default function Page() {
           </p>
           {" "}
           <div className="flex flex-wrap justify-center gap-6 max-lg:flex-col" data-cid="n299">
-            <a className="h-[2.5625rem] border border-solid border-clr-4 flex relative z-1 py-3 px-8 rounded-[50px] justify-center items-center overflow-hidden text-background text-[0.8125rem] font-bold leading-[0.9375rem] tracking-[1.28px] uppercase bg-primary shadow-[var(--clr-10)_0px_0px_20px_0px] cursor-pointer" data-cid="n300" data-component="button" href="/contact.html">
+            <a className="h-[2.5625rem] border border-solid border-clr-4 flex relative z-1 py-3 px-8 rounded-[50px] justify-center items-center overflow-hidden text-background text-[0.8125rem] font-bold leading-[0.9375rem] tracking-[1.28px] uppercase bg-primary shadow-[var(--clr-10)_0px_0px_20px_0px] cursor-pointer" data-cid="n300" data-component="button" href="/contact">
               Discuss Project
             </a>
             {" "}
@@ -298,7 +298,7 @@ export default function Page() {
           <div className="block max-w-320 px-8 max-lg:max-w-full 2xl:mx-80" data-cid="n303">
             <div className="grid mb-16 gap-12 grid-cols-[357.328px_178.672px_214.391px_321.609px] max-lg:gap-10 max-lg:text-center max-lg:grid-cols-1" data-cid="n304">
               <div className="flex flex-col max-lg:items-center" data-cid="n305">
-                <a className="h-26 block cursor-pointer" data-cid="n306" data-component="link" href="/index.html">
+                <a className="h-26 block cursor-pointer" data-cid="n306" data-component="link" href="/">
                   {" "}
                   <img className="w-46.5 h-20 block max-w-full mb-6 overflow-clip [filter:drop-shadow(var(--clr-0)_0px_0px_5px)]" data-cid="n307" data-component="image" alt="Focus VFX Studio" src="/assets/cloned/images/f068e3c48022.png" />
                   {" "}
