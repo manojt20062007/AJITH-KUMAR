@@ -181,7 +181,7 @@ export default function Page() {
               </div>
               {" "}
               <h3 className="block mb-4 [font-family:Outfit,_sans-serif] text-2xl font-extrabold leading-7.5 tracking-[-0.48px] uppercase" data-cid="n64" data-component="heading">
-                OUR MISSION
+                MISSION
               </h3>
               {" "}
               <p className="block text-color-001 text-[0.9375rem] leading-[1.625rem]" data-cid="n65">
