@@ -137,7 +137,7 @@ export default function Page() {
 
           </div>
           {" "}
-          <div className="h-902.5 min-h-100 grid items-start gap-8 grid-cols-[repeat(auto-fit,_minmax(326px,_1fr))] grid-rows-6 max-md:h-[584.6875rem] max-md:grid-rows-18 md:max-lg:h-[305.6875rem] md:max-lg:grid-rows-9" data-cid="n41" id="works-grid">
+          <div className="min-h-100 grid items-start gap-8 grid-cols-[repeat(auto-fit,_minmax(326px,_1fr))]" data-cid="n41" id="works-grid">
             {MediaCard_data.map((d, i) => <MediaCard key={i} d={d} cids={MediaCard_cids[i] || Array(14).fill("")} />)}
           </div>
           {" "}
