@@ -4,8 +4,10 @@ export type TileData = {
   htmlFor: string;
   text: string;
   id: string;
+  name: string;
   placeholder: string;
   type: string;
+  required?: boolean;
 };
 /** A content tile. */
 export default function Tile({ d, cids, styles }: { d: TileData; cids: string[]; styles: TileStyles }) {
@@ -15,7 +17,7 @@ export default function Tile({ d, cids, styles }: { d: TileData; cids: string[];
         {d.text}
       </label>
       {" "}
-      <input data-cid={cids[2]} className="w-full h-15.5 border border-solid border-border block py-5 px-6 rounded-sm overflow-clip bg-color-008 shadow-[var(--clr-13)_0px_2px_4px_0px_inset] [backdrop-filter:blur(10px)] cursor-text" data-component="input" id={d.id} placeholder={d.placeholder} type={d.type} />
+      <input data-cid={cids[2]} className="w-full h-15.5 border border-solid border-border block py-5 px-6 rounded-sm overflow-clip bg-color-008 shadow-[var(--clr-13)_0px_2px_4px_0px_inset] [backdrop-filter:blur(10px)] cursor-text" data-component="input" id={d.id} name={d.name} placeholder={d.placeholder} type={d.type} required={d.required} />
       {" "}
     </div>
   );
