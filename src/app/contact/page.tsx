@@ -160,7 +160,7 @@ export default function Page() {
         {" "}
         <div className="block relative z-10 max-w-320 mx-auto py-16 px-8 text-left max-lg:max-w-full max-md:mx-0" data-cid="n28">
           <span className="border border-solid border-color-006 inline-block mb-6 py-[0.4rem] px-4 rounded-[50px] text-primary [font-family:Outfit,_sans-serif] text-xs font-bold leading-[0.9375rem] tracking-[3.46px] uppercase" data-cid="n29">
-            FOCUS VFX STUDIO — CONTACT US
+            AJITH KUMAR— CONTACT US
           </span>
           {" "}
           <h1 className="block mb-6 text-[5.625rem] font-black leading-[5.3125rem] tracking-[-1.79px] uppercase max-md:text-5xl max-md:leading-[2.875rem] max-md:tracking-[-0.96px] md:max-lg:text-[3.375rem] md:max-lg:leading-[3.1875rem] md:max-lg:tracking-[-1.08px] 2xl:text-[6.5rem] 2xl:leading-[6.1875rem] 2xl:tracking-[-2.08px]" data-cid="n30" data-component="heading">
@@ -199,11 +199,11 @@ export default function Page() {
               </h3>
               {" "}
               <p className="block text-color-001 text-[0.9375rem] leading-[1.625rem]" data-cid="n43">
-                No.33, Balammal Building,
+                No.9,Kambar Street
                 <br className="inline" data-cid="n44" />
-                Burkit Road, T. Nagar,
+                Subramaniya Nagar,
                 <br className="inline" data-cid="n45" />
-                Chennai - 600017
+                Tiruttani-631209
               </p>
               {" "}
             </div>
@@ -220,18 +220,15 @@ export default function Page() {
               <p className="block text-color-001 text-[0.9375rem] leading-[1.625rem]" data-cid="n50">
                 {" Phone: "}
                 <a className="inline cursor-pointer" data-cid="n51" data-component="link" href="tel:+918925902036">
-                  +91 8925902036
+                  +91 8667586750
                 </a>
                 <br className="inline" data-cid="n52" />
                 {" General: "}
                 <a className="inline cursor-pointer" data-cid="n53" data-component="link" href="mailto:info@focusvfx.in">
-                  info@focusvfx.in
+                  creativeheadsak@gmail.com
                 </a>
-                <br className="inline" data-cid="n54" />
-                {" HR Division: "}
-                <a className="inline cursor-pointer" data-cid="n55" data-component="link" href="mailto:hr@focusvfx.in">
-                  hr@focusvfx.in
-                </a>
+
+
                 {" "}
               </p>
               {" "}
@@ -247,11 +244,10 @@ export default function Page() {
               </h3>
               {" "}
               <p className="block text-color-001 text-[0.9375rem] leading-[1.625rem]" data-cid="n60">
-                Monday to Saturday
+                Monday to Sunday
                 <br className="inline" data-cid="n61" />
-                09:00 AM to 06:00 PM
-                <br className="inline" data-cid="n62" />
-                Sunday: Closed
+                09:00 AM to 10:00 PM
+                
               </p>
               {" "}
             </div>
