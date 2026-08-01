@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 export const metadata = {
   "metadataBase": new URL(SITE_ORIGIN || "http://localhost:3000"),
   "title": "AJITH KUMAR PORTFOLIO",
-  "description": "Ajith KumarStudio delivers premium Hollywood-grade ROTO, CGI, Motion Graphics, and Post Production solutions for films and advertisements.",
+  "description": "Ajith KumarStudio delivers premium Hollywood-grade ROTO, PREP, COMPOSITING,MATCH MOVE,DIGITAL CLEANUP",
   "icons": {
     "icon": [
       {
