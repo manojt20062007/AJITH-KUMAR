@@ -1,0 +1,8 @@
+
+/* Stage 4 — interaction states (hover/focus + eased transitions) */
+[data-cid="Ln16"]{transition:0.4s cubic-bezier(0.16, 1, 0.3, 1)}
+[data-cid="Ln5"]{transition:0.4s cubic-bezier(0.16, 1, 0.3, 1)}
+[data-cid="Ln5"]:hover{filter:drop-shadow(rgba(255, 98, 90, 0.77) 0px 0px 14.4671px)}
+[data-cid="Ln16"]:hover{background-color:rgba(255, 0, 0, 0.9);border-bottom-color:rgba(255, 8, 8, 0.933);border-left-color:rgba(255, 8, 8, 0.933);border-right-color:rgba(255, 8, 8, 0.933);border-top-color:rgba(255, 8, 8, 0.933)}
+[data-cid="Ln5"]:focus{filter:drop-shadow(rgba(255, 98, 90, 0.255) 0px 0px 5.92845px)}
+[data-cid="Ln16"]:focus{background-color:rgba(255, 0, 0, 0.047);border-bottom-color:rgba(255, 219, 219, 0.333);border-left-color:rgba(255, 219, 219, 0.333);border-right-color:rgba(255, 219, 219, 0.333);border-top-color:rgba(255, 219, 219, 0.333)}
