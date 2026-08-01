@@ -23,7 +23,7 @@ export default function Header() {
           <a className="block cursor-pointer z-50" href="/">
             <img
               className="w-46.5 h-20 block max-w-full overflow-clip [filter:drop-shadow(var(--clr-0)_0px_0px_5px)] max-md:w-[5.8125rem] max-md:h-10 md:max-lg:w-29 md:max-lg:h-12.5"
-              alt="Focus VFX Studio"
+              alt="Ajith KumarStudio"
               src="/assets/cloned/images/f068e3c48022.png"
             />
           </a>

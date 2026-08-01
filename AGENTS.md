@@ -1,6 +1,6 @@
 # AGENTS.md
 
-This is a generated ditto.site clone app for https://focusvfx.com/. It is a static Next.js App Router project produced from captured DOM, CSS, assets, metadata, and interaction recipes.
+This is a generated ditto.site clone app for https://Ajith Kumarvfx.com/. It is a static Next.js App Router project produced from captured DOM, CSS, assets, metadata, and interaction recipes.
 
 ## Run
 
@@ -34,12 +34,12 @@ This is a generated ditto.site clone app for https://focusvfx.com/. It is a stat
 
 ## Routes
 
-- / - FOCUS VFX STUDIO | Premium Visual Effects & Post Production
-- /about.html - ABOUT US | FOCUS VFX STUDIO
-- /career.html - CAREERS | FOCUS VFX STUDIO
-- /contact.html - CONTACT US | FOCUS VFX STUDIO
-- /index.html - FOCUS VFX STUDIO | Premium Visual Effects & Post Production
-- /works.html - OUR PORTFOLIO | FOCUS VFX STUDIO
+- / - Ajith KumarSTUDIO | Premium Visual Effects & Post Production
+- /about.html - ABOUT US | Ajith KumarSTUDIO
+- /career.html - CAREERS | Ajith KumarSTUDIO
+- /contact.html - CONTACT US | Ajith KumarSTUDIO
+- /index.html - Ajith KumarSTUDIO | Premium Visual Effects & Post Production
+- /works.html - OUR PORTFOLIO | Ajith KumarSTUDIO
 
 ## Do Not Edit Casually
 

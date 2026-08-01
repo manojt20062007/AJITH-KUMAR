@@ -32,14 +32,14 @@ export function Preloader() {
       <div className="relative flex items-center justify-center w-72 h-72">
         {/* Outer spinning ring */}
         <div className="absolute inset-0 rounded-full border-t-4 border-b-4 border-transparent border-t-primary border-b-primary animate-[spin_1.2s_linear_infinite] opacity-90 shadow-[0_0_20px_rgba(255,0,0,0.4)]"></div>
-        
+
         {/* Inner spinning ring */}
         <div className="absolute inset-6 rounded-full border-l-4 border-r-4 border-transparent border-l-primary border-r-primary animate-[spin_1.8s_linear_infinite_reverse] opacity-70 shadow-[0_0_10px_rgba(255,0,0,0.3)]"></div>
-        
+
         {/* Logo Icon */}
-        <img 
-          src="/assets/cloned/images/b0adffef7d54.png" 
-          alt="Focus VFX Studio" 
+        <img
+          src="/assets/cloned/images/b0adffef7d54.png"
+          alt="Ajith KumarStudio"
           className="w-32 h-32 object-contain animate-pulse z-10 drop-shadow-[0_0_15px_rgba(255,0,0,0.8)]"
         />
       </div>

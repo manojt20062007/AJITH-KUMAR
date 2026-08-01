@@ -224,7 +224,7 @@ export default function Page() {
                 </a>
                 <br className="inline" data-cid="n52" />
                 {" General: "}
-                <a className="inline cursor-pointer" data-cid="n53" data-component="link" href="mailto:info@focusvfx.in">
+                <a className="inline cursor-pointer" data-cid="n53" data-component="link" href="mailto:info@Ajith Kumarvfx.in">
                   creativeheadsak@gmail.com
                 </a>
 

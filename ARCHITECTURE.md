@@ -38,12 +38,12 @@ Recipes identify higher-level patterns such as repeated cards, logo clouds, navi
 
 ## Routes
 
-- / - FOCUS VFX STUDIO | Premium Visual Effects & Post Production
-- /about.html - ABOUT US | FOCUS VFX STUDIO
-- /career.html - CAREERS | FOCUS VFX STUDIO
-- /contact.html - CONTACT US | FOCUS VFX STUDIO
-- /index.html - FOCUS VFX STUDIO | Premium Visual Effects & Post Production
-- /works.html - OUR PORTFOLIO | FOCUS VFX STUDIO
+- / - Ajith KumarSTUDIO | Premium Visual Effects & Post Production
+- /about.html - ABOUT US | Ajith KumarSTUDIO
+- /career.html - CAREERS | Ajith KumarSTUDIO
+- /contact.html - CONTACT US | Ajith KumarSTUDIO
+- /index.html - Ajith KumarSTUDIO | Premium Visual Effects & Post Production
+- /works.html - OUR PORTFOLIO | Ajith KumarSTUDIO
 
 ## Tradeoffs
 

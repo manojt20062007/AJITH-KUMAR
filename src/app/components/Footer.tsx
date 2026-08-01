@@ -26,10 +26,10 @@ export default function Footer() {
 
           <div className="flex flex-col max-lg:items-center">
             <a className="h-26 block cursor-pointer" href="/">
-              <img className="w-46.5 h-20 block max-w-full mb-6 overflow-clip [filter:drop-shadow(var(--clr-0)_0px_0px_5px)]" alt="Focus VFX Studio" src="/assets/cloned/images/f068e3c48022.png" />
+              <img className="w-46.5 h-20 block max-w-full mb-6 overflow-clip [filter:drop-shadow(var(--clr-0)_0px_0px_5px)]" alt="Ajith KumarStudio" src="/assets/cloned/images/f068e3c48022.png" />
             </a>
             <p className="block mb-6 text-color-001 text-sm leading-[1.4375rem]">
-              I specialize in delivering professional VFX solutions, including Prep, ROTO, Compositing, Matchmove, and Digital Cleanup. With a focus on quality, accuracy, and timely delivery, I help filmmakers, agencies, and creators bring every frame to life.
+              I specialize in delivering professional VFX solutions, including Prep, ROTO, Compositing, Matchmove, and Digital Cleanup. With a Ajith Kumar on quality, accuracy, and timely delivery, I help filmmakers, agencies, and creators bring every frame to life.
             </p>
             <div className="flex gap-[0.8rem] max-lg:justify-center">
               <a className="w-9 h-9 border border-solid border-border flex rounded-[50%] justify-center items-center text-sm leading-4 bg-color-002 cursor-pointer hover:bg-primary hover:text-white transition-colors" aria-label="Instagram" href="https://www.instagram.com/ajithkumarvfx/" target="_blank">

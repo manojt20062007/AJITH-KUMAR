@@ -739,7 +739,7 @@
   }
 }
 
-/* Stage 4 — interaction states (hover/focus + eased transitions) */
+/* Stage 4 — interaction states (hover/Ajith Kumar + eased transitions) */
 [data-cid="n103"] {
   transition: 0.4s cubic-bezier(0.16, 1, 0.3, 1)
 }
@@ -1744,20 +1744,20 @@
   text-decoration-color: rgb(254, 254, 254)
 }
 
-[data-cid="n25"]:focus {
+[data-cid="n25"]:Ajith Kumar {
   transform: matrix(1, 0, 0, 1, 0, -176.647)
 }
 
-[data-cid="n34"]:focus {
+[data-cid="n34"]:Ajith Kumar {
   transform: matrix(1, 0, 0, 1, 0, -445.041)
 }
 
-[data-cid="n59"]:focus {
+[data-cid="n59"]:Ajith Kumar {
   opacity: 0.993994;
   transform: matrix(1.04925, 0, 0, 1.04925, 0, 0)
 }
 
-[data-cid="n103"]:focus {
+[data-cid="n103"]:Ajith Kumar {
   background-color: rgb(237, 0, 0);
   border-bottom-color: rgba(255, 0, 0, 0.07);
   border-left-color: rgba(255, 0, 0, 0.07);
@@ -1769,7 +1769,7 @@
   text-decoration-color: rgb(18, 0, 0)
 }
 
-[data-cid="n104"]:focus {
+[data-cid="n104"]:Ajith Kumar {
   border-bottom-color: rgb(0, 0, 0);
   border-left-color: rgb(0, 0, 0);
   border-right-color: rgb(0, 0, 0);
@@ -1779,7 +1779,7 @@
   text-decoration-color: rgb(0, 0, 0)
 }
 
-[data-cid="n105"]:focus {
+[data-cid="n105"]:Ajith Kumar {
   background-color: rgba(255, 255, 255, 0.004);
   border-bottom-color: rgba(255, 255, 255, 0.275);
   border-left-color: rgba(255, 255, 255, 0.275);
@@ -1787,22 +1787,22 @@
   border-top-color: rgba(255, 255, 255, 0.275)
 }
 
-[data-cid="n133"]:focus {
+[data-cid="n133"]:Ajith Kumar {
   filter: grayscale(0.9) contrast(1.1) brightness(0.85);
   transform: matrix(1.05, 0, 0, 1.05, 0, 0)
 }
 
-[data-cid="n140"]:focus {
+[data-cid="n140"]:Ajith Kumar {
   filter: grayscale(0.9) contrast(1.1) brightness(0.85);
   transform: matrix(1.05, 0, 0, 1.05, 0, 0)
 }
 
-[data-cid="n147"]:focus {
+[data-cid="n147"]:Ajith Kumar {
   filter: grayscale(0.9) contrast(1.1) brightness(0.85);
   transform: matrix(1.05, 0, 0, 1.05, 0, 0)
 }
 
-[data-cid="n161"]:focus {
+[data-cid="n161"]:Ajith Kumar {
   border-bottom-color: rgba(255, 24, 24, 0.65);
   border-left-color: rgba(255, 24, 24, 0.65);
   border-right-color: rgba(255, 24, 24, 0.65);
@@ -1811,7 +1811,7 @@
   transform: matrix(1.01183, 0, 0, 1.01183, 0, -4.73214)
 }
 
-[data-cid="n180"]:focus {
+[data-cid="n180"]:Ajith Kumar {
   border-bottom-color: rgba(255, 24, 24, 0.65);
   border-left-color: rgba(255, 24, 24, 0.65);
   border-right-color: rgba(255, 24, 24, 0.65);
@@ -1820,7 +1820,7 @@
   transform: matrix(1.01184, 0, 0, 1.01184, 0, -4.73461)
 }
 
-[data-cid="n199"]:focus {
+[data-cid="n199"]:Ajith Kumar {
   border-bottom-color: rgba(255, 24, 24, 0.65);
   border-left-color: rgba(255, 24, 24, 0.65);
   border-right-color: rgba(255, 24, 24, 0.65);
@@ -1829,7 +1829,7 @@
   transform: matrix(1.01183, 0, 0, 1.01183, 0, -4.73116)
 }
 
-[data-cid="n222"]:focus {
+[data-cid="n222"]:Ajith Kumar {
   border-bottom-color: rgba(255, 24, 24, 0.65);
   border-left-color: rgba(255, 24, 24, 0.65);
   border-right-color: rgba(255, 24, 24, 0.65);
@@ -1838,7 +1838,7 @@
   transform: matrix(1.01183, 0, 0, 1.01183, 0, -4.73046)
 }
 
-[data-cid="n241"]:focus {
+[data-cid="n241"]:Ajith Kumar {
   border-bottom-color: rgba(255, 43, 43, 0.51);
   border-left-color: rgba(255, 43, 43, 0.51);
   border-right-color: rgba(255, 43, 43, 0.51);
@@ -1847,7 +1847,7 @@
   transform: matrix(1.00849, 0, 0, 1.00849, 0, -3.39611)
 }
 
-[data-cid="n260"]:focus {
+[data-cid="n260"]:Ajith Kumar {
   border-bottom-color: rgba(255, 43, 43, 0.51);
   border-left-color: rgba(255, 43, 43, 0.51);
   border-right-color: rgba(255, 43, 43, 0.51);
@@ -1856,7 +1856,7 @@
   transform: matrix(1.00848, 0, 0, 1.00848, 0, -3.39276)
 }
 
-[data-cid="n277"]:focus {
+[data-cid="n277"]:Ajith Kumar {
   border-bottom-color: rgba(255, 24, 24, 0.65);
   border-left-color: rgba(255, 24, 24, 0.65);
   border-right-color: rgba(255, 24, 24, 0.65);
@@ -1865,7 +1865,7 @@
   transform: matrix(1.01184, 0, 0, 1.01184, 0, -4.73417)
 }
 
-[data-cid="n296"]:focus {
+[data-cid="n296"]:Ajith Kumar {
   border-bottom-color: rgba(255, 33, 33, 0.576);
   border-left-color: rgba(255, 33, 33, 0.576);
   border-right-color: rgba(255, 33, 33, 0.576);
@@ -1874,7 +1874,7 @@
   transform: matrix(1.01007, 0, 0, 1.01007, 0, -4.02787)
 }
 
-[data-cid="n315"]:focus {
+[data-cid="n315"]:Ajith Kumar {
   border-bottom-color: rgba(255, 33, 33, 0.576);
   border-left-color: rgba(255, 33, 33, 0.576);
   border-right-color: rgba(255, 33, 33, 0.576);
@@ -1883,7 +1883,7 @@
   transform: matrix(1.01007, 0, 0, 1.01007, 0, -4.02674)
 }
 
-[data-cid="n334"]:focus {
+[data-cid="n334"]:Ajith Kumar {
   border-bottom-color: rgba(255, 24, 24, 0.65);
   border-left-color: rgba(255, 24, 24, 0.65);
   border-right-color: rgba(255, 24, 24, 0.65);
@@ -1892,7 +1892,7 @@
   transform: matrix(1.01182, 0, 0, 1.01182, 0, -4.72984)
 }
 
-[data-cid="n353"]:focus {
+[data-cid="n353"]:Ajith Kumar {
   border-bottom-color: rgba(255, 33, 33, 0.576);
   border-left-color: rgba(255, 33, 33, 0.576);
   border-right-color: rgba(255, 33, 33, 0.576);
@@ -1901,7 +1901,7 @@
   transform: matrix(1.01006, 0, 0, 1.01006, 0, -4.02546)
 }
 
-[data-cid="n372"]:focus {
+[data-cid="n372"]:Ajith Kumar {
   border-bottom-color: rgba(255, 6, 6, 0.882);
   border-left-color: rgba(255, 6, 6, 0.882);
   border-right-color: rgba(255, 6, 6, 0.882);
@@ -1910,7 +1910,7 @@
   transform: matrix(1.01726, 0, 0, 1.01726, 0, -6.905)
 }
 
-[data-cid="n391"]:focus {
+[data-cid="n391"]:Ajith Kumar {
   border-bottom-color: rgba(255, 248, 248, 0.153);
   border-left-color: rgba(255, 248, 248, 0.153);
   border-right-color: rgba(255, 248, 248, 0.153);
@@ -1919,7 +1919,7 @@
   transform: matrix(1.00008, 0, 0, 1.00008, 0, -0.0311139)
 }
 
-[data-cid="n410"]:focus {
+[data-cid="n410"]:Ajith Kumar {
   border-bottom-color: rgba(255, 6, 6, 0.882);
   border-left-color: rgba(255, 6, 6, 0.882);
   border-right-color: rgba(255, 6, 6, 0.882);
@@ -1928,7 +1928,7 @@
   transform: matrix(1.01726, 0, 0, 1.01726, 0, -6.90267)
 }
 
-[data-cid="n448"]:focus {
+[data-cid="n448"]:Ajith Kumar {
   border-bottom-color: rgba(255, 24, 24, 0.65);
   border-left-color: rgba(255, 24, 24, 0.65);
   border-right-color: rgba(255, 24, 24, 0.65);
@@ -1937,7 +1937,7 @@
   transform: matrix(1.01183, 0, 0, 1.01183, 0, -4.73302)
 }
 
-[data-cid="n467"]:focus {
+[data-cid="n467"]:Ajith Kumar {
   border-bottom-color: rgba(255, 10, 10, 0.81);
   border-left-color: rgba(255, 10, 10, 0.81);
   border-right-color: rgba(255, 10, 10, 0.81);
@@ -1946,7 +1946,7 @@
   transform: matrix(1.01559, 0, 0, 1.01559, 0, -6.23624)
 }
 
-[data-cid="n486"]:focus {
+[data-cid="n486"]:Ajith Kumar {
   border-bottom-color: rgb(255, 0, 0);
   border-left-color: rgb(255, 0, 0);
   border-right-color: rgb(255, 0, 0);
@@ -1955,7 +1955,7 @@
   transform: matrix(1.02, 0, 0, 1.02, 0, -8)
 }
 
-[data-cid="n505"]:focus {
+[data-cid="n505"]:Ajith Kumar {
   border-bottom-color: rgba(255, 96, 96, 0.318);
   border-left-color: rgba(255, 96, 96, 0.318);
   border-right-color: rgba(255, 96, 96, 0.318);
@@ -1964,7 +1964,7 @@
   transform: matrix(1.00395, 0, 0, 1.00395, 0, -1.58059)
 }
 
-[data-cid="n585"]:focus {
+[data-cid="n585"]:Ajith Kumar {
   background-color: rgb(255, 21, 21);
   border-bottom-color: rgb(21, 0, 0);
   border-left-color: rgb(21, 0, 0);
@@ -1977,7 +1977,7 @@
   transform: matrix(1.00805, 0, 0, 1.00805, 0, 0)
 }
 
-[data-cid="n586"]:focus {
+[data-cid="n586"]:Ajith Kumar {
   border-bottom-color: rgb(0, 0, 0);
   border-left-color: rgb(0, 0, 0);
   border-right-color: rgb(0, 0, 0);
@@ -1987,12 +1987,12 @@
   text-decoration-color: rgb(0, 0, 0)
 }
 
-[data-cid="n588"]:focus {
+[data-cid="n588"]:Ajith Kumar {
   opacity: 0.50569;
   transform: matrix(1.39545, 0, 0, 1.39545, 0, 0)
 }
 
-[data-cid="n599"]:focus {
+[data-cid="n599"]:Ajith Kumar {
   background-color: rgb(252, 0, 0);
   border-bottom-color: rgba(255, 0, 0, 0.01);
   border-left-color: rgba(255, 0, 0, 0.01);
@@ -2004,15 +2004,15 @@
   text-decoration-color: rgb(3, 0, 0)
 }
 
-[data-cid="n600"]:focus {
+[data-cid="n600"]:Ajith Kumar {
   background-color: rgba(255, 255, 255, 0.004)
 }
 
-[data-cid="n607"]:focus {
+[data-cid="n607"]:Ajith Kumar {
   filter: drop-shadow(rgba(255, 98, 90, 0.21) 0px 0px 5.17064px)
 }
 
-[data-cid="n612"]:focus {
+[data-cid="n612"]:Ajith Kumar {
   background-color: rgb(21, 20, 20);
   border-bottom-color: rgba(255, 235, 235, 0.055);
   border-left-color: rgba(255, 235, 235, 0.055);
@@ -2022,7 +2022,7 @@
   transform: matrix(1, 0, 0, 1, 0, -0.0128425)
 }
 
-[data-cid="n614"]:focus {
+[data-cid="n614"]:Ajith Kumar {
   background-color: rgb(25, 20, 20);
   border-bottom-color: rgba(255, 178, 178, 0.07);
   border-left-color: rgba(255, 178, 178, 0.07);
@@ -2032,7 +2032,7 @@
   transform: matrix(1, 0, 0, 1, 0, -0.0652063)
 }
 
-[data-cid="n616"]:focus {
+[data-cid="n616"]:Ajith Kumar {
   background-color: rgb(22, 20, 20);
   border-bottom-color: rgba(255, 215, 215, 0.06);
   border-left-color: rgba(255, 215, 215, 0.06);
@@ -2042,7 +2042,7 @@
   transform: matrix(1, 0, 0, 1, 0, -0.0281589)
 }
 
-[data-cid="n618"]:focus {
+[data-cid="n618"]:Ajith Kumar {
   background-color: rgb(36, 19, 19);
   border-bottom-color: rgba(255, 105, 105, 0.114);
   border-left-color: rgba(255, 105, 105, 0.114);
@@ -2052,7 +2052,7 @@
   transform: matrix(1, 0, 0, 1, 0, -0.204031)
 }
 
-[data-cid="n620"]:focus {
+[data-cid="n620"]:Ajith Kumar {
   background-color: rgb(33, 19, 19);
   border-bottom-color: rgba(255, 120, 120, 0.1);
   border-left-color: rgba(255, 120, 120, 0.1);
@@ -2062,7 +2062,7 @@
   transform: matrix(1, 0, 0, 1, 0, -0.162667)
 }
 
-[data-cid="n626"]:focus {
+[data-cid="n626"]:Ajith Kumar {
   border-bottom-color: rgb(193, 193, 187);
   border-left-color: rgb(193, 193, 187);
   border-right-color: rgb(193, 193, 187);
@@ -2072,7 +2072,7 @@
   text-decoration-color: rgb(193, 193, 187)
 }
 
-[data-cid="n628"]:focus {
+[data-cid="n628"]:Ajith Kumar {
   border-bottom-color: rgb(189, 189, 183);
   border-left-color: rgb(189, 189, 183);
   border-right-color: rgb(189, 189, 183);
@@ -2082,7 +2082,7 @@
   text-decoration-color: rgb(189, 189, 183)
 }
 
-[data-cid="n630"]:focus {
+[data-cid="n630"]:Ajith Kumar {
   border-bottom-color: rgb(191, 191, 185);
   border-left-color: rgb(191, 191, 185);
   border-right-color: rgb(191, 191, 185);
@@ -2092,7 +2092,7 @@
   text-decoration-color: rgb(191, 191, 185)
 }
 
-[data-cid="n632"]:focus {
+[data-cid="n632"]:Ajith Kumar {
   border-bottom-color: rgb(196, 196, 191);
   border-left-color: rgb(196, 196, 191);
   border-right-color: rgb(196, 196, 191);
@@ -2102,7 +2102,7 @@
   text-decoration-color: rgb(196, 196, 191)
 }
 
-[data-cid="n634"]:focus {
+[data-cid="n634"]:Ajith Kumar {
   border-bottom-color: rgb(196, 196, 191);
   border-left-color: rgb(196, 196, 191);
   border-right-color: rgb(196, 196, 191);
@@ -2112,7 +2112,7 @@
   text-decoration-color: rgb(196, 196, 191)
 }
 
-[data-cid="n639"]:focus {
+[data-cid="n639"]:Ajith Kumar {
   border-bottom-color: rgb(196, 196, 191);
   border-left-color: rgb(196, 196, 191);
   border-right-color: rgb(196, 196, 191);
@@ -2122,7 +2122,7 @@
   text-decoration-color: rgb(196, 196, 191)
 }
 
-[data-cid="n641"]:focus {
+[data-cid="n641"]:Ajith Kumar {
   border-bottom-color: rgb(189, 189, 183);
   border-left-color: rgb(189, 189, 183);
   border-right-color: rgb(189, 189, 183);
@@ -2132,7 +2132,7 @@
   text-decoration-color: rgb(189, 189, 183)
 }
 
-[data-cid="n645"]:focus {
+[data-cid="n645"]:Ajith Kumar {
   border-bottom-color: rgb(196, 196, 191);
   border-left-color: rgb(196, 196, 191);
   border-right-color: rgb(196, 196, 191);
@@ -2142,7 +2142,7 @@
   text-decoration-color: rgb(196, 196, 191)
 }
 
-[data-cid="n647"]:focus {
+[data-cid="n647"]:Ajith Kumar {
   border-bottom-color: rgb(196, 196, 191);
   border-left-color: rgb(196, 196, 191);
   border-right-color: rgb(196, 196, 191);
@@ -2152,7 +2152,7 @@
   text-decoration-color: rgb(196, 196, 191)
 }
 
-[data-cid="n651"]:focus {
+[data-cid="n651"]:Ajith Kumar {
   border-bottom-color: rgb(193, 193, 187);
   border-left-color: rgb(193, 193, 187);
   border-right-color: rgb(193, 193, 187);
@@ -2162,7 +2162,7 @@
   text-decoration-color: rgb(193, 193, 187)
 }
 
-[data-cid="n653"]:focus {
+[data-cid="n653"]:Ajith Kumar {
   border-bottom-color: rgb(193, 193, 188);
   border-left-color: rgb(193, 193, 188);
   border-right-color: rgb(193, 193, 188);
@@ -2172,7 +2172,7 @@
   text-decoration-color: rgb(193, 193, 188)
 }
 
-[data-cid="n659"]:focus {
+[data-cid="n659"]:Ajith Kumar {
   border-bottom-color: rgb(196, 196, 191);
   border-left-color: rgb(196, 196, 191);
   border-right-color: rgb(196, 196, 191);
@@ -2182,7 +2182,7 @@
   text-decoration-color: rgb(196, 196, 191)
 }
 
-[data-cid="n669"]:focus {
+[data-cid="n669"]:Ajith Kumar {
   border-bottom-color: rgb(196, 196, 191);
   border-left-color: rgb(196, 196, 191);
   border-right-color: rgb(196, 196, 191);
@@ -2192,7 +2192,7 @@
   text-decoration-color: rgb(196, 196, 191)
 }
 
-[data-cid="n672"]:focus {
+[data-cid="n672"]:Ajith Kumar {
   border-bottom-color: rgb(189, 189, 183);
   border-left-color: rgb(189, 189, 183);
   border-right-color: rgb(189, 189, 183);

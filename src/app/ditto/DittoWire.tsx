@@ -55,7 +55,7 @@ export default function DittoWire({ spec }: { spec: Spec }) {
             e.preventDefault();
             active = (active + (k === "ArrowRight" ? 1 : spec.tabs.length - 1)) % spec.tabs.length;
             render();
-            byCid(spec.tabs[active].trigger)?.focus();
+            byCid(spec.tabs[active].trigger)?.Ajith Kumar();
           }
         }, { signal });
       });
@@ -109,7 +109,7 @@ export default function DittoWire({ spec }: { spec: Spec }) {
       track?.addEventListener("mousedown", (e) => { if (e.button === 0) handleStart(e.clientX); }, { signal });
       track?.addEventListener("mouseup", (e) => handleEnd(e.clientX), { signal });
       track?.addEventListener("mouseleave", () => { isDragging = false; }, { signal });
-      
+
       // Prevent native image dragging from interrupting our drag events
       track?.addEventListener("dragstart", (e) => e.preventDefault(), { signal });
 
@@ -130,7 +130,7 @@ export default function DittoWire({ spec }: { spec: Spec }) {
           }
         }
       }, { signal, passive: false });
-      
+
       // Auto-play support
       let autoPlayTimer: ReturnType<typeof setInterval> | null = null;
       const startAutoPlay = () => {
@@ -149,7 +149,7 @@ export default function DittoWire({ spec }: { spec: Spec }) {
       track?.addEventListener("mouseleave", startAutoPlay, { signal });
       track?.addEventListener("touchstart", stopAutoPlay, { signal });
       track?.addEventListener("touchend", startAutoPlay, { signal });
-      
+
       // No initial go() — the static base state is already correct.
     } else {
       // Disclosure: dropdown / mega-menu / modal — a trigger reveals a hidden overlay.
