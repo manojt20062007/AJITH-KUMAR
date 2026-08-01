@@ -7,20 +7,15 @@ const FeatureCard_data = [
   { title: "PREP", description: "Comprehensive planning, concept art, and pre-visualization to set the vision." },
   { title: "Story Board", description: "Translating scripts into detailed sequential art for precise camera and scene planning." },
   { title: "Story Telling", description: "Crafting compelling narratives through visual cues, pacing, and dynamic frame composition." },
-  { title: "CGI Production", description: "High-fidelity 3D modeling, texturing, rigging and character animation for films and digital platforms." },
-  { title: "Motion Graphics", description: "Futuristic UI design, kinetic titles, corporate brand reels and visual graphic projections." },
-  { title: "3D Animation", description: "Full-character animation, complex mechanical rigs and stylized environmental narratives." },
   { title: "Compositing", description: "Seamlessly stitching greenscreen footage, live plates, matte paintings, and 3D assets." },
   { title: "ROTO", description: "High-precision edge matte creation, paint fixes, wire removals and plate reconstructions." },
   { title: "Matchmove", description: "Pixel-perfect 3D camera tracking, object tracking, and lens distortion calibrations." },
-  { title: "Color Grading", description: "Stunning cinematic color correction and grade passes that elevate visual storytelling." },
   { title: "Digital Cleanup", description: "Removing unwanted artifacts, structural repairs, rig removals and cosmetic cleanups." }
 ];
 const ListRow_data = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About Us" },
   { href: "/works", label: "Our Works" },
-  { href: "/career", label: "Careers" },
   { href: "/contact", label: "Contact Us" }
 ];
 const ListRow2_data = [
@@ -100,19 +95,19 @@ export default function Page() {
         {" "}
         <div className="block relative z-10 max-w-320 mx-[7.9375rem] py-16 px-8 text-left max-lg:max-w-full max-md:mx-0 md:max-lg:mx-[1.6875rem] 2xl:mx-[23.1125rem]" data-cid="n28">
           <span className="border border-solid border-color-006 inline-block mb-6 py-[0.4rem] px-4 rounded-[50px] text-primary [font-family:Outfit,_sans-serif] text-xs font-bold leading-[0.9375rem] tracking-[3.46px] uppercase" data-cid="n29">
-            FOCUS VFX STUDIO — ABOUT US
+            About Ajith Kumar
           </span>
           {" "}
           <h1 className="block mb-6 text-[5.625rem] font-black leading-[5.3125rem] tracking-[-1.79px] uppercase max-md:text-5xl max-md:leading-[2.875rem] max-md:tracking-[-0.96px] md:max-lg:text-[3.375rem] md:max-lg:leading-[3.1875rem] md:max-lg:tracking-[-1.08px] 2xl:text-[6.5rem] 2xl:leading-[6.1875rem] 2xl:tracking-[-2.08px]" data-cid="n30" data-component="heading">
-            CRAFTING CINEMATIC
+            BRINGING VISIONS
             <br className="inline" data-cid="n31" />
             <span className="inline text-primary [text-shadow:var(--clr-9)_0px_0px_50px]" data-cid="n32">
-              REALITIES
+              TO LIFE
             </span>
           </h1>
           {" "}
           <p className="w-full max-w-162.5 border-l-[3px] border-solid border-l-primary block mb-10 pl-5 text-color-014 text-[1.1875rem] leading-[2.0625rem] max-lg:leading-[1.6875rem] max-lg:[font-size:inherit]" data-cid="n33">
-            Get to know the creative minds and technological powerhouse behind Focus VFX Studio.
+            Discover the passion, creativity, and expertise behind every visual I create.
           </p>
           {" "}
         </div>
@@ -136,37 +131,21 @@ export default function Page() {
               </span>
               {" "}
               <h2 className="block mb-6 [font-family:Outfit,_sans-serif] text-[2.5rem] font-black leading-12.5 tracking-[-0.8px] uppercase" data-cid="n42" data-component="heading">
-                WHO WE ARE
+                WHO I AM
               </h2>
               {" "}
               <p className="block mb-6 text-color-001 text-[1.0625rem] leading-[1.875rem]" data-cid="n43">
-                {" Founded by a collective of visual visionaries and technological innovators, Focus VFX Studio has grown to become a leading post-production house delivering top-tier CGI, compositing, and visual effects solutions. "}
+                {" I'm a passionate freelance VFX artist specializing in Rotoscoping, Compositing, Matchmove, Digital Cleanup, and Post-Production. With a strong eye for detail and a commitment to quality, I help transform creative ideas into visually compelling content."}
               </p>
               {" "}
               <p className="block mb-6 text-color-001 text-[1.0625rem] leading-[1.875rem]" data-cid="n44">
-                {" Based in Chennai, India, we service national and international filmmakers, OTT platforms, global advertising agencies, and enterprise clients. Our goal is simple: to transform abstract imaginations into stunning photorealistic realities that engage audiences. "}
+                {"Based in Chennai, India, I collaborate with filmmakers, production houses, agencies, brands, and content creators worldwide. My goal is to deliver high-quality visual effects that enhance storytelling and bring every frame to life. "}
               </p>
-              {" "}
-              <div className="flex mt-10 items-center gap-4" data-cid="n45">
-                <img className="w-[4.6875rem] h-12.5 block max-w-full overflow-clip" data-cid="n46" data-component="image" alt="TPN Certified Studio" src="/assets/cloned/images/b6106541035f.png" />
-                {" "}
-                <div className="block" data-cid="n47">
-                  <span className="block [font-family:Outfit,_sans-serif] text-sm font-extrabold leading-4.5 tracking-[1.44px] whitespace-nowrap" data-cid="n48">
-                    TPN GLOBAL CERTIFIED
-                  </span>
-                  {" "}
-                  <span className="inline text-primary text-xs font-bold leading-[0.9375rem] tracking-[0.6px]" data-cid="n49">
-                    SECURE FACILITY
-                  </span>
-                  {" "}
-                </div>
-                {" "}
-              </div>
               {" "}
             </div>
             {" "}
             <div className="block" data-cid="n50">
-              <div className="h-112.5 border border-solid border-color-003 block relative rounded-sm bg-cover [background-position:50%_50%] shadow-[var(--clr-15)_0px_20px_40px_0px] max-lg:h-75" style={{ backgroundImage: "url(\"/assets/cloned/images/comp.jpeg\")" }} data-cid="n51">
+              <div className="h-112.5 border border-solid border-color-003 block relative rounded-sm bg-cover [background-position:50%_50%] shadow-[var(--clr-15)_0px_20px_40px_0px] max-lg:h-75" style={{ backgroundImage: "url(\"/assets/cloned/images/ak.jpeg\")" }} data-cid="n51">
                 <div className="h-full block absolute top-0 inset-x-0" style={{ backgroundImage: "radial-gradient(circle, var(--clr-27) 0%, var(--clr-4) 70%)" }} data-cid="n52" />
                 {" "}
               </div>
@@ -187,7 +166,7 @@ export default function Page() {
               </div>
               {" "}
               <h3 className="block mb-4 [font-family:Outfit,_sans-serif] text-2xl font-extrabold leading-7.5 tracking-[-0.48px] uppercase" data-cid="n59" data-component="heading">
-                OUR VISION
+                VISION
               </h3>
               {" "}
               <p className="block text-color-001 text-[0.9375rem] leading-[1.625rem]" data-cid="n60">
@@ -237,7 +216,7 @@ export default function Page() {
         </div>
         {" "}
       </section>
-      
+
     </>
   );
 }

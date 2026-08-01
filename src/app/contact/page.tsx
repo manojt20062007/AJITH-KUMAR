@@ -41,7 +41,6 @@ const ListRow_data = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About Us" },
   { href: "/works", label: "Our Works" },
-  { href: "/career", label: "Careers" },
   { href: "/contact", label: "Contact Us" }
 ];
 const ListRow2_data = [

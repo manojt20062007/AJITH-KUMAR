@@ -7,7 +7,6 @@ const ListRow_data = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about" },
   { label: "Our Works", href: "/works" },
-  { label: "Careers", href: "/career" },
   { label: "Contact Us", href: "/contact" }
 ];
 

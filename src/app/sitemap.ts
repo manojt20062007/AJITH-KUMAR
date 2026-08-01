@@ -16,11 +16,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   },
   {
-    url: SITE_ORIGIN + "/career",
-    changeFrequency: "weekly",
-    priority: 0.7,
-  },
-  {
     url: SITE_ORIGIN + "/contact",
     changeFrequency: "weekly",
     priority: 0.7,
