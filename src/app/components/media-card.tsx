@@ -11,7 +11,7 @@ export default function MediaCard({ d, cids, styles }: { d: MediaCardData; cids:
   return (
     <div data-cid={cids[0]} className="border border-solid border-border block relative rounded-md overflow-hidden aspect-[3/4] bg-color-012 cursor-pointer group">
       <div data-cid={cids[1]} className="h-full block absolute top-0 inset-x-0">
-        <img data-cid={cids[2]} className={cn("w-[24.1875rem] h-[32.3125rem] block max-w-full overflow-clip object-cover transition-all duration-[700ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:[filter:grayscale(0.9)_contrast(1.1)_brightness(0.85)] group-hover:transform-[matrix(1.05,0,0,1.05,0,0)] max-md:w-[19.3125rem] max-md:h-[25.8125rem] max-md:origin-[154.5px_206.328px] md:max-lg:w-84.5 md:max-lg:h-[28.1875rem] md:max-lg:origin-[169px_225.664px] 2xl:w-[26.6875rem] 2xl:h-142.5", styles.className)} data-component="image" alt={d.alt} src={d.imgSrc} />
+        <img data-cid={cids[2]} className={cn("w-full h-full block max-w-full overflow-clip object-cover transition-all duration-[700ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:[filter:grayscale(0.9)_contrast(1.1)_brightness(0.85)] group-hover:scale-105", styles.className)} data-component="image" alt={d.alt} src={d.imgSrc} />
         {" "}
         <div data-cid={cids[3]} className="h-full block absolute top-0 inset-x-0 z-1 opacity-80" style={{ backgroundImage: "linear-gradient(to top, var(--clr-11) 0%, var(--clr-12) 50%, var(--clr-4) 100%)" }} />
         {" "}

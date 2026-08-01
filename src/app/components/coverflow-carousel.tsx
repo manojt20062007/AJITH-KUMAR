@@ -47,7 +47,7 @@ export default function CoverflowCarousel({
         .swiper-button-next,
         .swiper-button-prev {
           color: #ff0000 !important;
-          --swiper-navigation-size: 3rem;
+          --swiper-navigation-size: 1.5rem;
           opacity: 0.7;
           transition: all 0.3s ease;
           text-shadow: 0 4px 20px rgba(0,0,0,0.5);
@@ -56,6 +56,12 @@ export default function CoverflowCarousel({
         .swiper-button-prev:hover {
           opacity: 1;
           transform: scale(1.1);
+        }
+        @media (min-width: 768px) {
+          .swiper-button-next,
+          .swiper-button-prev {
+            --swiper-navigation-size: 3rem;
+          }
         }
         @media (min-width: 1024px) {
           .swiper-button-next { right: 12% !important; }
