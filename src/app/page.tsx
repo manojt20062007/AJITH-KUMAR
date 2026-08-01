@@ -209,10 +209,7 @@ export default function Page() {
             {" "}
             <h1 className="flex mb-8 flex-col text-[2rem] font-black leading-8 tracking-[-0.64px] uppercase max-md:text-[1.8125rem] max-md:leading-[1.8125rem] max-md:tracking-[0.58px] md:max-lg:text-[2.1875rem] md:max-lg:leading-[2.1875rem] md:max-lg:tracking-[0.7px]" data-cid="n67" data-component="heading">
               <span className="block text-[4.8125rem] leading-[4.8125rem] max-md:text-[2.5rem] max-md:leading-10 md:max-lg:text-[2.875rem] md:max-lg:leading-[2.875rem] 2xl:text-8xl 2xl:leading-24" data-cid="n68">
-                <span className="inline-block whitespace-nowrap" data-cid="ajith-span">AJITH</span>
-                {" "}
-                <span className="inline-block whitespace-nowrap" data-cid="kumar-span">KUMAR</span>
-                {" "}
+                <span className="inline-block whitespace-nowrap" data-cid="ajith kumar-span">AJITH KUMAR</span>
                 <span className="inline-block text-primary whitespace-nowrap [text-shadow:var(--clr-8)_0px_0px_20px,_var(--clr-9)_0px_0px_45px]" data-cid="n89">
                   PORTFOLIO
                 </span>
