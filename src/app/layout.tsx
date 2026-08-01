@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 export const metadata = {
   "metadataBase": new URL(SITE_ORIGIN || "http://localhost:3000"),
-  "title": "FOCUS VFX STUDIO | Premium ROTO & Post Production",
+  "title": "AJITH KUMAR PORTFOLIO",
   "description": "Focus VFX Studio delivers premium Hollywood-grade ROTO, CGI, Motion Graphics, and Post Production solutions for films and advertisements.",
   "icons": {
     "icon": [
