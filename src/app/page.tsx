@@ -31,8 +31,8 @@ const Tile2_data = [
 ];
 const MediaCard_data = [
   { alt: "PREP", imgSrc: "/assets/cloned/images/prep.jpg", title: "PREP", description: "Laying the perfect foundation with storyboarding, concept art, and previz.\n            " },
-  { alt: "COMPOSITING", imgSrc: "/assets/cloned/images/comp.jpeg", title: "COMPOSITING", description: "Pushing boundaries with photorealistic FX, digital environments and\n              compositing." },
-  { alt: "ROTO", imgSrc: "/assets/cloned/images/roto.jpeg", title: "ROTO", description: "Breathing life into characters with state-of-the-art rigging and modeling.\n            " }
+  { alt: "COMPOSITING", imgSrc: "/assets/cloned/images/comp.jpeg", title: "ROTO", description: "Pushing boundaries with photorealistic FX, digital environments and\n              compositing." },
+  { alt: "ROTO", imgSrc: "/assets/cloned/images/roto.jpeg", title: "COMP", description: "Breathing life into characters with state-of-the-art rigging and modeling.\n            " }
 ];
 const MediaCard2_data = [
   { ariaLabel: "5 / 19", alt: "Andhra King", id: "card-img-andhra-king-4", imgSrc: "/assets/cloned/images/e69013e6b001.jpg", title: "Andhra King", description: "A high-octane political comedy tracking the chaotic journey of a fanatic fan turned regional hero.", text: "ROTO", text2: "CGI Production", text3: "Compositing" },
@@ -189,11 +189,11 @@ export default function Page() {
             {" "}
           </div>
           {" "}
-          <div className="w-384 h-240 block absolute -top-20 -left-32 z-1 opacity-[0.61687] [mix-blend-mode:screen] [background-size:auto,_auto] [background-position:0%_0%,_0%_0%] [background-repeat:repeat,_repeat] [background-clip:border-box,_border-box] [background-origin:padding-box,_padding-box] [background-attachment:scroll,_scroll] [background-blend-mode:normal,_normal] [filter:blur(60px)] [-webkit-background-clip:border-box,_border-box] [animation-name:volumetricPulse] [animation-duration:6s] [animation-timing-function:ease-in-out] [animation-iteration-count:infinite] pointer-events-none max-md:w-112.5 max-md:h-[60.9rem] max-md:-top-[5.075rem] max-md:left-[-37.5px] md:max-lg:w-[57.6rem] md:max-lg:h-[76.8rem] md:max-lg:-top-[6.4rem] md:max-lg:-left-[4.8rem] 2xl:w-576 2xl:h-324 2xl:-top-27 2xl:-left-48" style={{ backgroundImage: "radial-gradient(at 70% 40%, var(--clr-3) 0%, var(--clr-4) 60%), radial-gradient(at 20% 80%, var(--clr-5) 0%, var(--clr-4) 50%)" }} data-cid="n59" />
+          <div className="w-384 h-240 block absolute -top-20 -left-32 z-1 opacity-[0.627116] [mix-blend-mode:screen] [background-size:auto,_auto] [background-position:0%_0%,_0%_0%] [background-repeat:repeat,_repeat] [background-clip:border-box,_border-box] [background-origin:padding-box,_padding-box] [background-attachment:scroll,_scroll] [background-blend-mode:normal,_normal] [filter:blur(60px)] [-webkit-background-clip:border-box,_border-box] [animation-name:volumetricPulse] [animation-duration:6s] [animation-timing-function:ease-in-out] [animation-iteration-count:infinite] pointer-events-none max-md:w-112.5 max-md:h-[60.9rem] max-md:-top-[5.075rem] max-md:left-[-37.5px] md:max-lg:w-[57.6rem] md:max-lg:h-[76.8rem] md:max-lg:-top-[6.4rem] md:max-lg:-left-[4.8rem] 2xl:w-576 2xl:h-324 2xl:-top-27 2xl:-left-48" style={{ backgroundImage: "radial-gradient(at 70% 40%, var(--clr-3) 0%, var(--clr-4) 60%), radial-gradient(at 20% 80%, var(--clr-5) 0%, var(--clr-4) 50%)" }} data-cid="n59" />
           {" "}
           <img className="w-320 h-200 block absolute z-1 overflow-clip aspect-[auto_1280/800] pointer-events-none max-md:w-[23.4375rem] max-md:h-203 max-md:aspect-[auto_375/812] md:max-lg:w-192 md:max-lg:h-256 md:max-lg:aspect-[auto_768/1024] 2xl:w-480 2xl:h-270 2xl:aspect-[auto_1920/1080]" data-cid="n60" height="800" id="hero-particles" src="/assets/cloned/images/5bd24ab131a8.png" width="1280" alt="" />
           {" "}
-          <div className="w-320 h-200 block absolute top-0 left-0 z-1 opacity-[0.994226] [background-size:auto,_auto] [background-position:0%_0%,_0%_0%] [background-repeat:repeat,_repeat] [background-clip:border-box,_border-box] [background-origin:padding-box,_padding-box] [background-attachment:scroll,_scroll] [background-blend-mode:normal,_normal] [-webkit-background-clip:border-box,_border-box] [animation-name:smokeFloat] [animation-duration:8s] [animation-timing-function:ease-in-out] [animation-iteration-count:infinite] [animation-direction:alternate] pointer-events-none max-md:w-[23.4375rem] max-md:h-203 md:max-lg:w-192 md:max-lg:h-256 2xl:w-480 2xl:h-270" style={{ backgroundImage: "radial-gradient(circle at 80% 50%, var(--clr-5) 0%, var(--clr-4) 50%), radial-gradient(circle at 10% 60%, var(--border) 0%, var(--clr-4) 40%)" }} data-cid="n61" />
+          <div className="h-full block absolute top-0 inset-x-0 z-1 opacity-[0.500143] [background-size:auto,_auto] [background-position:0%_0%,_0%_0%] [background-repeat:repeat,_repeat] [background-clip:border-box,_border-box] [background-origin:padding-box,_padding-box] [background-attachment:scroll,_scroll] [background-blend-mode:normal,_normal] [-webkit-background-clip:border-box,_border-box] [animation-name:smokeFloat] [animation-duration:8s] [animation-timing-function:ease-in-out] [animation-iteration-count:infinite] [animation-direction:alternate] pointer-events-none" style={{ backgroundImage: "radial-gradient(circle at 80% 50%, var(--clr-5) 0%, var(--clr-4) 50%), radial-gradient(circle at 10% 60%, var(--border) 0%, var(--clr-4) 40%)" }} data-cid="n61" />
           {" "}
           <img className="w-320 h-200 block absolute opacity-50 overflow-clip aspect-[auto_1280/800] max-md:w-[23.4375rem] max-md:h-203 max-md:aspect-[auto_375/812] md:max-lg:w-192 md:max-lg:h-256 md:max-lg:aspect-[auto_768/1024] 2xl:w-480 2xl:h-270 2xl:aspect-[auto_1920/1080]" data-cid="n62" aria-hidden="true" height="800" id="three-canvas" src="/assets/cloned/images/564865e47836.png" width="1280" alt="" />
           {" "}
@@ -204,7 +204,7 @@ export default function Page() {
         <div className="w-full block relative z-3 max-w-350 pt-32 pb-16 px-16 mx-auto" data-cid="n64">
           <div className="w-full max-w-237.5 block" data-cid="n65">
             <span className="border border-solid border-color-009 inline-block mb-6 py-[0.4rem] px-4 rounded-[50px] text-primary [font-family:Outfit,_sans-serif] text-xs font-bold leading-[0.9375rem] tracking-[3.6px] uppercase" data-cid="n66">
-              Quality Is Our First Motive
+              Quality is our first moto
             </span>
             {" "}
             <h1 className="flex mb-8 flex-col text-[2rem] font-black leading-8 tracking-[-0.64px] uppercase max-md:text-[1.8125rem] max-md:leading-[1.8125rem] max-md:tracking-[0.58px] md:max-lg:text-[2.1875rem] md:max-lg:leading-[2.1875rem] md:max-lg:tracking-[0.7px]" data-cid="n67" data-component="heading">
@@ -282,6 +282,8 @@ export default function Page() {
               {" "}
             </h1>
             {" "}
+
+            {" "}
             <div className="flex flex-wrap gap-4" data-cid="n102">
               <a className="w-[211.5px] h-[2.5625rem] border border-solid border-clr-4 flex relative z-1 opacity-0 py-3 px-8 rounded-[50px] justify-center items-center overflow-hidden text-background text-[0.8125rem] font-bold leading-[0.9375rem] tracking-[1.28px] uppercase bg-primary shadow-[var(--clr-10)_0px_0px_20px_0px] transform-[matrix(0.95,0,0,0.95,0,20)] origin-[105.742px_20.5px] cursor-pointer" data-cid="n103" href="/works.html">
                 {"VIEW OUR WORK "}
@@ -304,7 +306,7 @@ export default function Page() {
             SCROLL
           </span>
           {" "}
-          <div className="w-px h-12.5 block opacity-[0.815092] [animation-name:scrollPulse] [animation-duration:2s] [animation-timing-function:ease-in-out] [animation-iteration-count:infinite]" style={{ backgroundImage: "linear-gradient(var(--color-013), var(--clr-4))" }} data-cid="n109" />
+          <div className="w-px h-12.5 block opacity-[0.411378] [animation-name:scrollPulse] [animation-duration:2s] [animation-timing-function:ease-in-out] [animation-iteration-count:infinite]" style={{ backgroundImage: "linear-gradient(var(--color-013), var(--clr-4))" }} data-cid="n109" />
           {" "}
         </div>
         {" "}
@@ -364,7 +366,6 @@ export default function Page() {
           {" "}
         </div>
         {" "}
-
       </section>
       <section className="border-t border-solid border-t-border border-b border-b-border block relative py-32 bg-color-002 max-lg:py-16" data-cid="n545" id="why-us">
         <div className="block max-w-320 px-8 max-lg:max-w-full max-lg:px-6 2xl:mx-80" data-cid="n546">
@@ -399,7 +400,7 @@ export default function Page() {
                 <i className="inline-block [font-family:'Font_Awesome_6_Free'] font-black leading-6 before:content-[''] before:text-background before:text-2xl before:font-black before:leading-6 before:text-center" data-cid="n587" />
               </span>
               {" "}
-              <span className="w-22.5 h-7 border-2 border-solid border-primary block absolute top-0 left-0 -z-1 opacity-[0.69249] min-w-0 rounded-[50%] [animation-name:playRipple] [animation-duration:2s] [animation-timing-function:linear] [animation-iteration-count:infinite]" data-cid="n588" />
+              <span className="w-22.5 h-7 border-2 border-solid border-primary block absolute top-0 left-0 -z-1 opacity-[0.950953] min-w-0 rounded-[50%] [animation-name:playRipple] [animation-duration:2s] [animation-timing-function:linear] [animation-iteration-count:infinite]" data-cid="n588" />
               {" "}
             </button>
           </VideoModal>
@@ -416,7 +417,7 @@ export default function Page() {
         {" "}
       </section>
       <section className="block relative py-40 overflow-hidden text-center bg-color-011" data-cid="n591" id="cta">
-        <div className="w-150 h-150 block absolute top-[308.1px] left-160 opacity-[0.598512] rounded-[50%] [filter:blur(40px)] [animation-name:orbPulse] [animation-duration:4s] [animation-timing-function:ease-in-out] [animation-iteration-count:infinite] pointer-events-none max-md:top-82.5 max-md:left-[187.5px] md:max-lg:top-[19.025rem] md:max-lg:left-96 2xl:top-[22.875rem] 2xl:left-240" style={{ backgroundImage: "radial-gradient(circle, var(--clr-23) 0%, var(--clr-4) 70%)" }} data-cid="n592" />
+        <div className="w-150 h-150 block absolute top-[308.1px] left-160 opacity-[0.502323] rounded-[50%] [filter:blur(40px)] [animation-name:orbPulse] [animation-duration:4s] [animation-timing-function:ease-in-out] [animation-iteration-count:infinite] pointer-events-none max-md:top-82.5 max-md:left-[187.5px] md:max-lg:top-[19.025rem] md:max-lg:left-96 2xl:top-[22.875rem] 2xl:left-240" style={{ backgroundImage: "radial-gradient(circle, var(--clr-23) 0%, var(--clr-4) 70%)" }} data-cid="n592" />
         {" "}
         <div className="block relative z-2 max-w-320 px-8 max-lg:max-w-full max-lg:px-6 2xl:mx-80" data-cid="n593">
           <h2 className="block relative z-2 mb-6 text-[4.8125rem] font-black leading-[5.0625rem] tracking-[-1.54px] uppercase max-md:text-[2.5rem] max-md:leading-10.5 max-md:tracking-[-0.8px] md:max-lg:text-[2.875rem] md:max-lg:leading-[3rem] md:max-lg:tracking-[-0.92px] 2xl:text-[5.5rem] 2xl:leading-[5.75rem] 2xl:tracking-[-1.76px]" data-cid="n594" data-component="heading">
@@ -458,12 +459,10 @@ export default function Page() {
                 </a>
                 {" "}
                 <p className="block mb-6 text-color-001 text-sm leading-[1.4375rem]" data-cid="n608">
-                  {" I specialize in delivering professional VFX solutions, including Prep, ROTO, Compositing, Matchmove, and Digital Cleanup. With a focus on quality, accuracy, and timely delivery, I help filmmakers, agencies, and creators bring every frame to life."}
+                  {"I specialize in delivering professional VFX solutions, including Prep, ROTO, Compositing, Matchmove, and Digital Cleanup. With a focus on quality, accuracy, and timely delivery, I help filmmakers, agencies, and creators bring every frame to life."}
                 </p>
                 {" "}
-                <div className="block mb-6" data-cid="n609">
-                  {" "}
-                </div>
+
                 {" "}
                 <div className="flex gap-[0.8rem] max-lg:justify-center" data-cid="n611">
                   <a className="w-9 h-9 border border-solid border-border flex rounded-[50%] justify-center items-center text-sm leading-4 bg-color-002 cursor-pointer" data-cid="n612" data-component="link" aria-label="Instagram" href="https://www.instagram.com/ajithkumarvfx/" target="_blank">
@@ -477,7 +476,7 @@ export default function Page() {
                   <a className="w-9 h-9 border border-solid border-border flex rounded-[50%] justify-center items-center text-sm leading-4 bg-color-002 cursor-pointer" data-cid="n616" data-component="link" aria-label="LinkedIn" href="https://www.linkedin.com/in/ajithkumarlava/" target="_blank">
                     <i className="block [font-family:'Font_Awesome_6_Brands'] leading-[0.875rem] before:content-[''] before:text-foreground before:text-sm before:leading-[0.875rem] max-lg:before:text-center" data-cid="n617" />
                   </a>
-                  {" "}
+
                   {" "}
                 </div>
                 {" "}
