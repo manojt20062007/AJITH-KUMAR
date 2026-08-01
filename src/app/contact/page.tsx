@@ -302,68 +302,7 @@ export default function Page() {
         </div>
         {" "}
       </section>
-      <section className="h-125 border-t border-solid border-t-color-003 border-b border-b-color-003 block relative shadow-[var(--color-010)_0px_-20px_40px_0px]" data-cid="n92">
-        <div className="h-full block relative overflow-hidden [font-family:'Helvetica_Neue',_Arial,_Helvetica,_sans-serif] text-xs leading-4.5 bg-clr-30 cursor-grab" data-cid="n93" id="contact-map">
-          <div className="w-0 h-0 block absolute top-0 left-0 z-400 transform-[none]" data-cid="n94">
-            <div className="w-0 h-0 block absolute top-0 left-0 z-200" data-cid="n95">
-              <div className="w-0 h-0 block absolute top-0 left-0 z-1" data-cid="n96">
-                <div className="w-0 h-0 block absolute top-0 left-0 z-20 pointer-events-none" data-cid="n97">
-                  {Tile2_data.map((d, i) => <Tile2 key={i} d={d} cids={Tile2_cids[i]} styles={Tile2_styles[i]} />)}
-                </div>
-              </div>
-            </div>
-            <div className="w-[0.9375rem] h-[0.9375rem] block absolute z-600" data-cid="n122">
-              <div className="w-7.5 h-7.5 block relative z-249 -mt-[0.9375rem] -ml-[0.9375rem] transform-[matrix(1,0,0,1,640,249)] cursor-pointer" data-cid="n123" data-component="button" role="button">
-                <div className="w-7.5 h-7.5 block absolute top-0 left-0 z-5 opacity-[0.377645] rounded-[50%] bg-accent [animation-name:markerPulse] [animation-duration:1.8s] [animation-timing-function:ease-out] [animation-iteration-count:infinite]" data-cid="n124" />
-                <div className="w-3.5 h-3.5 border-2 border-solid border-foreground block absolute top-2 left-2 z-10 rounded-[50%] bg-primary shadow-[var(--clr-31)_0px_0px_10px_0px]" data-cid="n125" />
-              </div>
-            </div>
-          </div>
-          <div className="block" data-cid="n126">
-            <div className="w-11 h-18.5 block absolute z-1000 pointer-events-none" data-cid="n127">
-              <div className="border-2 border-solid border-color-015 block relative float-left clear-both z-800 mt-2.5 ml-2.5 rounded-sm [background-clip:padding-box] [-webkit-background-clip:padding-box]" data-cid="n128">
-                <a className="h-7.5 border-b border-solid border-b-clr-32 block rounded-tl-xs rounded-tr-xs text-background [font-family:'Lucida_Console',_Monaco,_monospace] text-[1.375rem] font-bold leading-7.5 text-center indent-[1px] bg-foreground [background-position:50%_50%] bg-no-repeat cursor-pointer" data-cid="n129" data-component="button" aria-disabled="false" aria-label="Zoom in" href="#" role="button" title="Zoom in">
-                  <span className="inline" data-cid="n130" aria-hidden="true">
-                    +
-                  </span>
-                </a>
-                <a className="h-7.5 block rounded-br-xs rounded-bl-xs text-background [font-family:'Lucida_Console',_Monaco,_monospace] text-[1.375rem] font-bold leading-7.5 text-center indent-[1px] bg-foreground [background-position:50%_50%] bg-no-repeat cursor-pointer" data-cid="n131" data-component="button" aria-disabled="false" aria-label="Zoom out" href="#" role="button" title="Zoom out">
-                  <span className="inline" data-cid="n132" aria-hidden="true">
-                    −
-                  </span>
-                </a>
-              </div>
-            </div>
-            <div className="w-[18.2rem] h-[1.05rem] block absolute right-0 bottom-0 z-1000 pointer-events-none" data-cid="n133">
-              <div className="block relative float-right clear-both z-800 px-[0.3125rem] text-clr-33 leading-[1.0625rem] bg-clr-34" data-cid="n134">
-                <a className="inline text-clr-35 cursor-pointer" data-cid="n135" data-component="link" href="https://leafletjs.com/" title="A JavaScript library for interactive maps">
-                  <svg className="w-auto h-2 inline overflow-hidden" data-cid="n136" data-component="icon" aria-hidden="true" height="8" viewBox="0 0 12 8" width="12" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-                    <path fill="#4C7BE1" d="M0 0h12v4H0z" />
-                    <path fill="#FFD500" d="M0 4h12v3H0z" />
-                    <path fill="#E0BC00" d="M0 7h12v1H0z" />
-                  </svg>
-                  {" Leaflet"}
-                </a>
-                {" "}
-                <span className="inline" data-cid="n137" aria-hidden="true">
-                  |
-                </span>
-                {" © OpenStreetMap contributors © CARTO"}
-              </div>
-            </div>
-          </div>
-        </div>
-        {" "}
-        <div className="w-[266.3px] h-[2.5625rem] block absolute bottom-8 left-[clamp(187.5px,_50%,_calc(100%_-_187.5px))] z-1000 transform-[matrix(1,0,0,1,-133.125,0)] max-md:w-[187.5px] max-md:h-[4.4375rem] max-md:transform-[matrix(1,0,0,1,-93.75,0)]" data-cid="n138">
-          <a className="h-full border border-solid border-clr-4 flex relative z-1 py-3 px-8 rounded-[50px] justify-center items-center gap-2.5 overflow-hidden text-background text-[0.8125rem] font-bold leading-[0.9375rem] tracking-[1.28px] uppercase bg-primary shadow-[var(--clr-2)_0px_10px_30px_0px] cursor-pointer" data-cid="n139" data-component="button" href="https://maps.app.goo.gl/4LRR1DSEje3YXv9h9" target="_blank">
-            {" "}
-            <i className="block [font-family:'Font_Awesome_6_Free'] font-black leading-[0.8125rem] before:content-[''] before:text-background before:text-[0.8125rem] before:font-black before:leading-[0.8125rem] before:tracking-[1.28px]" data-cid="n140" />
-            {" Open in Google Maps "}
-          </a>
-          {" "}
-        </div>
-        {" "}
-      </section>
+
 
     </>
   );
