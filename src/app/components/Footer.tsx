@@ -1,7 +1,7 @@
 "use client";
 
-import { ListRow } from "./list-row";
-import { ListRow2 } from "./list-row2";
+import ListRow from "./list-row";
+import ListRow2 from "./list-row2";
 
 const ListRow_data = [
   { label: "Home", href: "/" },

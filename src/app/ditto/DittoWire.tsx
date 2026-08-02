@@ -55,7 +55,7 @@ export default function DittoWire({ spec }: { spec: Spec }) {
             e.preventDefault();
             active = (active + (k === "ArrowRight" ? 1 : spec.tabs.length - 1)) % spec.tabs.length;
             render();
-            byCid(spec.tabs[active].trigger)?.Ajith Kumar();
+            byCid(spec.tabs[active].trigger)?.focus();
           }
         }, { signal });
       });
