@@ -7,6 +7,7 @@ import { Preloader } from "./components/Preloader";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { cn } from "../lib/utils";
+import { CustomCursor } from "./components/custom-cursor";
 
 // Define the fallback origin or use SITE_ORIGIN
 const siteUrl = SITE_ORIGIN || "https://ajithkumarak.vercel.app";
@@ -83,6 +84,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className="cn0" data-cid="n0">
+        <CustomCursor />
         <Preloader />
         <Header />
         {children}
