@@ -9,7 +9,7 @@ export type MediaCardData = {
 /** A card with media + heading. */
 export default function MediaCard({ d, cids, styles }: { d: MediaCardData; cids: string[]; styles: MediaCardStyles }) {
   return (
-    <div data-cid={cids[0]} className="border border-solid border-border block relative rounded-md overflow-hidden aspect-[3/4] bg-color-012 cursor-pointer group">
+    <div data-cid={cids[0]} className="border border-solid border-border block relative rounded-md overflow-hidden aspect-[3/4] bg-color-012 cursor-pointer group transition-all duration-500 ease-out hover:shadow-[0_0_40px_rgba(255,0,0,0.4)] hover:border-primary/50 hover:-translate-y-2">
       <div data-cid={cids[1]} className="h-full block absolute top-0 inset-x-0">
         <img data-cid={cids[2]} className={cn("w-full h-full block max-w-full overflow-clip object-cover transition-all duration-[700ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:[filter:grayscale(0.9)_contrast(1.1)_brightness(0.85)] group-hover:scale-105", styles.className)} data-component="image" alt={d.alt} src={d.imgSrc} />
         {" "}
@@ -17,7 +17,7 @@ export default function MediaCard({ d, cids, styles }: { d: MediaCardData; cids:
         {" "}
       </div>
       {" "}
-      <div data-cid={cids[4]} className="h-[9.0625rem] block absolute bottom-0 inset-x-0 z-2 p-8 max-lg:h-[168.1px]">
+      <div data-cid={cids[4]} className="h-[9.0625rem] block absolute bottom-0 inset-x-0 z-2 p-8 max-lg:h-[168.1px] transition-all duration-500 ease-out group-hover:bg-black/50 group-hover:backdrop-blur-md">
         <h3 data-cid={cids[5]} className="block mb-2 text-[1.375rem] font-bold leading-[1.6875rem] tracking-[0.45px] uppercase" data-component="heading">
           {d.title}
         </h3>
