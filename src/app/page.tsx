@@ -52,10 +52,10 @@ const MediaCard2_data = [
   { ariaLabel: "17 / 19", alt: "Thug Life", id: "card-img-thug-life-16", imgSrc: "/assets/cloned/images/b2b66908cd9c.jfif", title: "Thug Life", description: "A highly anticipated epic action drama starring Kamal Haasan.", text: "ROTO", text2: "Compositing", text3: "CGI Production" }
 ];
 const FeatureCard_data = [
-  { title: "Creative Excellence", description: "Pushing the boundaries of ROTO to deliver artistic visuals that tell\n            powerful stories." },
-  { title: "On-Time Delivery", description: "Robust scheduling and pipeline management ensuring deadlines are met, every time." },
-  { title: "Premium Quality", description: "Uncompromised pixel quality with strict validation standards for multi-screen\n            projection." },
-  { title: "Client Satisfaction", description: "Collaborating closely with directors and producers to bring their vision to absolute\n            life." }
+  { title: "CREATIVE COLLABORATION", description: "Adapting effortlessly to diverse team setups, supporting creative leads to bring high-concept ideas to life." },
+  { title: "RELIABLE TURNAROUND", description: "Agile turnaround times with clear communication, guaranteeing critical post-production milestones are always met." },
+  { title: "VISUAL ACCURACY", description: "Delivering meticulous roto, cleanups, and prep work that seamlessly blend into complex feature and commercial pipelines." },
+  { title: "INDUSTRY-STANDARD PRECISION", description: "Strict adherence to high-resolution validation, matte integrity, and color-space consistency for modern displays." }
 ];
 const ListRow_data = [
   { href: "/", label: "Home" },
@@ -65,10 +65,10 @@ const ListRow_data = [
 ];
 const ListRow2_data = [
   { label: "PREP" },
-  { label: "Compositing" },
+  { label: "COMPOSITING" },
   { label: "ROTO" },
-  { label: "Matchmovie" },
-  { label: "Digital Cleanup" }
+  { label: "MATCHMOVE" },
+  { label: "DIGITAL CLEANUP" }
 ];
 const Logo_cids: string[][] = [
   ["n25", "n26", "n27", "n28", "n29", "n30", "n31", "n32", "n33"],
@@ -181,9 +181,9 @@ const AnimatedText = ({ text, className = "", delayOffset = 0, ...props }: { tex
       <span
         key={i}
         className="inline-block"
-        style={{ 
-          opacity: 0, 
-          animation: `letterFadeIn 0.5s ease-out ${delayOffset + i * 0.1}s forwards` 
+        style={{
+          opacity: 0,
+          animation: `letterFadeIn 0.5s ease-out ${delayOffset + i * 0.1}s forwards`
         }}
       >
         {char === " " ? "\u00A0" : char}
@@ -364,7 +364,6 @@ export default function Page() {
           </h3>
           {" "}
           <p className="block text-color-014 text-lg leading-[1.3125rem]" data-cid="n590">
-            Experience our latest work in feature film and advertising.
           </p>
           {" "}
         </div>
@@ -389,7 +388,7 @@ export default function Page() {
           {" "}
           <div className="flex flex-wrap justify-center gap-4 max-lg:flex-col" data-cid="n598">
             <a className="h-[2.5625rem] border border-solid border-clr-4 flex relative z-1 py-3 px-8 rounded-[50px] justify-center items-center overflow-hidden text-background text-[0.8125rem] font-bold leading-[0.9375rem] tracking-[1.28px] uppercase bg-primary shadow-[var(--clr-10)_0px_0px_20px_0px] cursor-pointer" data-cid="n599" data-component="button" href="/contact">
-              START A PROJECT
+              START OUR PROJECT
             </a>
             {" "}
             <a className="h-[2.5625rem] border border-solid border-surface-3 flex relative z-1 py-3 px-8 rounded-[50px] justify-center items-center overflow-hidden text-[0.8125rem] font-semibold leading-[0.9375rem] tracking-[1.28px] uppercase cursor-pointer" data-cid="n600" data-component="button" href="/works">

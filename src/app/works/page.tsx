@@ -43,7 +43,7 @@ const ListRow2_data = [
   { label: "3D Animation" },
   { label: "Compositing" },
   { label: "ROTO" },
-  { label: "Matchmovie" },
+  { label: "MATCHMOVE" },
   { label: "Colour Grading" },
   { label: "Digital Cleanup" }
 ];

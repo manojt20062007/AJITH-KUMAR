@@ -15,6 +15,7 @@ export function CustomCursor() {
       if (!isVisible) setIsVisible(true);
       if (cursorRef.current) {
         cursorRef.current.style.transform = `translate3d(${e.clientX}px, ${e.clientY}px, 0)`;
+        cursorRef.current.style.setProperty('--cy', `${e.clientY}px`);
       }
     };
 
@@ -64,6 +65,28 @@ export function CustomCursor() {
       <div 
         className={`absolute top-0 left-0 w-8 h-8 border-[1.5px] border-primary rounded-full -translate-x-1/2 -translate-y-1/2 transition-all duration-300 ease-out ${isHovering ? "scale-[1.6] bg-primary/10 border-primary/30" : "scale-100"}`}
       />
+
+      <style>{`
+        @keyframes spiderSwing {
+          0% { transform: translateX(-50%) rotate(-10deg); }
+          50% { transform: translateX(-50%) rotate(10deg); }
+          100% { transform: translateX(-50%) rotate(-10deg); }
+        }
+        .spider-container {
+          animation: spiderSwing 3s ease-in-out infinite;
+          transform-origin: top center;
+        }
+      `}</style>
+
+      {/* Spider-Man Hanging Graphic */}
+      <div className="spider-container absolute top-0 left-0 flex flex-col items-center">
+        {/* Web line hanging down from cursor */}
+        <div className="w-[2px] h-24 bg-white/60 origin-top"></div>
+        {/* Spider-Man graphic upside down at the bottom of the web */}
+        <div className="z-50 flex justify-center w-24 -mt-2">
+          <img src="/spiderman.png" alt="Spider-Man" className="w-full h-auto drop-shadow-2xl object-contain pointer-events-none" />
+        </div>
+      </div>
     </div>
   );
 }
