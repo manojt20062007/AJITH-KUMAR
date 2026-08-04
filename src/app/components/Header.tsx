@@ -45,7 +45,7 @@ export default function Header() {
           <div className="flex items-center gap-4 md:gap-6 z-50">
             <ThemeToggleButton />
 
-            <a className="h-[2.0625rem] border border-solid border-surface-3 flex relative z-1 py-2 px-5 rounded-[50px] justify-center items-center overflow-hidden text-xs font-semibold leading-[0.9375rem] tracking-[1.2px] uppercase cursor-pointer max-lg:hidden hover:bg-primary hover:text-white transition-colors" href="/contact">
+            <a id="target-lets-start" className="h-[2.0625rem] border border-solid border-surface-3 flex relative z-1 py-2 px-5 rounded-[50px] justify-center items-center overflow-hidden text-xs font-semibold leading-[0.9375rem] tracking-[1.2px] uppercase cursor-pointer max-lg:hidden hover:bg-primary hover:text-white transition-colors" href="/contact">
               LET'S START
             </a>
 

@@ -149,7 +149,7 @@ export default function Page() {
           <div className="w-100 h-100 block absolute top-[clamp(127.6px,_50%,_calc(100%_-_127.6px))] left-[clamp(186.5px,_50%,_calc(100%_-_186.5px))] transform-[matrix(1,0,0,1,-200,-200)] pointer-events-none" style={{ backgroundImage: "radial-gradient(circle, var(--clr-38) 0%, var(--clr-39) 70%)" }} data-cid="n296" />
           {" "}
           <h2 className="block mb-6 [font-family:Outfit,_sans-serif] text-[2.5rem] font-black leading-12.5 tracking-[1px] uppercase" data-cid="n297" data-component="heading">
-            HAVE A PROJECT IN MIND?
+            You Want To Do a Project?
           </h2>
           {" "}
           <p className="block max-w-162.5 mb-10 mx-auto px-4 text-color-001 text-lg leading-[2.0625rem]" data-cid="n298">

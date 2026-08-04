@@ -283,7 +283,7 @@ export default function Page() {
                     Message
                   </label>
                   {" "}
-                  <textarea className="w-full h-45.5 min-h-45 border border-solid border-border block py-5 px-6 rounded-sm overflow-auto whitespace-pre-wrap [overflow-wrap:break-word] bg-color-008 shadow-[var(--clr-13)_0px_2px_4px_0px_inset] [backdrop-filter:blur(10px)] cursor-text" data-cid="n88" data-component="textarea" id="contact-message" name="message" required placeholder="Outline your project timeline, shot count, and specific requirements..." />
+                  <textarea className="w-full h-45.5 min-h-45 border border-solid border-border block py-5 px-6 rounded-sm overflow-auto whitespace-pre-wrap [overflow-wrap:break-word] bg-color-008 shadow-[var(--clr-13)_0px_2px_4px_0px_inset] [backdrop-filter:blur(10px)] cursor-text" data-cid="n88" data-component="textarea" id="contact-message" name="message" />
                   {" "}
                 </div>
                 {" "}

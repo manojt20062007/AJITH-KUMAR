@@ -5,6 +5,7 @@ import Logo from "./components/logo";
 import Tile from "./components/tile";
 import Tile2 from "./components/tile2";
 import MediaCard from "./components/media-card";
+
 import MediaCard2 from "./components/media-card2";
 import FeatureCard from "./components/feature-card";
 import ListRow from "./components/list-row";
@@ -186,6 +187,7 @@ const AnimatedText = ({ text, className = "", delayOffset = 0, ...props }: { tex
     {text.split("").map((char, i) => (
       <span
         key={i}
+        id={`anim-text-${text.replace(/\s+/g, '-').toLowerCase()}-${i}`}
         className="inline-block"
         style={{
           opacity: 0,
@@ -407,7 +409,6 @@ export default function Page() {
         </div>
         {" "}
       </section>
-
     </>
   );
 }
