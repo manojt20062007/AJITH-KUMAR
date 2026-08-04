@@ -75,8 +75,16 @@ export function CustomCursor() {
       spiderPos.current.x += (targetX - spiderPos.current.x) * 0.08;
       spiderPos.current.y += (targetY - spiderPos.current.y) * 0.08;
 
+      // 4. Calculate dynamic rotation so Spider-Man tilts towards the direction he is swinging
+      // We calculate the angle between the spider logo and Spider-Man
+      const dx = spiderPos.current.x - logoPos.current.x;
+      const dy = spiderPos.current.y - logoPos.current.y;
+      // Using atan2 to find the angle of the string relative to straight down
+      const angle = Math.atan2(-dx, dy) * (180 / Math.PI);
+
       if (spiderRef.current) {
-        spiderRef.current.style.transform = `translate3d(${spiderPos.current.x}px, ${spiderPos.current.y}px, 0)`;
+        // Apply position and rotation!
+        spiderRef.current.style.transform = `translate3d(${spiderPos.current.x}px, ${spiderPos.current.y}px, 0) rotate(${angle}deg)`;
       }
 
       // Draw the dynamic, curved web line connecting the Logo and Spider-Man
@@ -131,7 +139,7 @@ export function CustomCursor() {
         <path ref={pathRef} stroke="rgba(255, 255, 255, 0.5)" strokeWidth="1.5" fill="none" strokeLinecap="round" />
       </svg>
 
-      <div ref={spiderRef} className="fixed top-0 left-0 pointer-events-none z-[999998] will-change-transform">
+      <div ref={spiderRef} className="fixed top-0 left-0 pointer-events-none z-[999998] will-change-transform" style={{ transformOrigin: 'top center' }}>
         <style>{`
           @keyframes spidermanBob {
             0%, 100% { transform: translate(-50%, -10px) rotate(0deg); }
