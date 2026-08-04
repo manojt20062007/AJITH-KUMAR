@@ -89,8 +89,10 @@ export function CustomCursor() {
 
       // Draw the dynamic, curved web line connecting the Logo and Spider-Man
       if (pathRef.current) {
+        // Start the web slightly below the center of the spider logo
         const startX = logoPos.current.x;
-        const startY = logoPos.current.y;
+        const startY = logoPos.current.y + 8;
+        // End the web exactly at the spiderPos (which we aligned to his hand)
         const endX = spiderPos.current.x;
         const endY = spiderPos.current.y;
 
@@ -139,21 +141,21 @@ export function CustomCursor() {
         <path ref={pathRef} stroke="rgba(255, 255, 255, 0.5)" strokeWidth="1.5" fill="none" strokeLinecap="round" />
       </svg>
 
-      <div ref={spiderRef} className="fixed top-0 left-0 pointer-events-none z-[999998] will-change-transform" style={{ transformOrigin: 'top center' }}>
+      <div ref={spiderRef} className="fixed top-0 left-0 pointer-events-none z-[999998] will-change-transform" style={{ transformOrigin: '0px 0px' }}>
         <style>{`
           @keyframes spidermanBob {
-            0%, 100% { transform: translate(-50%, -10px) rotate(0deg); }
-            50% { transform: translate(-50%, -10px) rotate(5deg); }
+            0%, 100% { transform: translate(-24%, -32px) rotate(0deg); }
+            50% { transform: translate(-24%, -32px) rotate(5deg); }
           }
           .spider-graphic {
             animation: spidermanBob 4s ease-in-out infinite;
-            transform-origin: top center;
+            transform-origin: 24% 32px;
           }
         `}</style>
 
         {/* Spider-Man Hanging Graphic */}
         <div className="spider-graphic z-50 absolute top-0 left-0 flex flex-col items-center w-24">
-          <img src="/spiderman.png" alt="Spider-Man" className="w-full h-auto drop-shadow-2xl object-contain pointer-events-none" />
+          <img src="/12.png" alt="Spider-Man" className="w-full h-auto drop-shadow-2xl object-contain pointer-events-none" />
         </div>
       </div>
     </>

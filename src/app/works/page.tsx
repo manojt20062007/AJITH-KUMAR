@@ -153,8 +153,10 @@ export default function Page() {
           </h2>
           {" "}
           <p className="block max-w-162.5 mb-10 mx-auto px-4 text-color-001 text-lg leading-[2.0625rem]" data-cid="n298">
-            Whether it's a feature film VFX pipeline, a commercial ad CGI set extension, or motion graphics branding, let's build visual wonders together.
-          </p>
+            Whether you need seamless feature film shots, realistic commercial set extensions, or dynamic brand motion design—let’s collaborate to build stunning visuals.
+
+            Let’s START Projects
+            Start a Project          </p>
           {" "}
           <div className="flex flex-wrap justify-center gap-6 max-lg:flex-col" data-cid="n299">
             <a className="h-[2.5625rem] border border-solid border-clr-4 flex relative z-1 py-3 px-8 rounded-[50px] justify-center items-center overflow-hidden text-background text-[0.8125rem] font-bold leading-[0.9375rem] tracking-[1.28px] uppercase bg-primary shadow-[var(--clr-10)_0px_0px_20px_0px] cursor-pointer" data-cid="n300" data-component="button" href="/contact">
