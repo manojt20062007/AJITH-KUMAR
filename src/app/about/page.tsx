@@ -156,44 +156,7 @@ export default function Page() {
         </div>
         {" "}
       </section>
-      <section className="border-t border-solid border-t-border border-b border-b-border block relative py-32 bg-color-002 max-lg:py-16" data-cid="n53">
-        <div className="block max-w-320 px-8 max-lg:max-w-full max-lg:px-6 2xl:mx-80" data-cid="n54">
-          <div className="grid gap-12 grid-cols-2 max-lg:grid-cols-1" data-cid="n55">
-            <div className="border border-solid border-border block py-14 px-10 rounded-sm text-center bg-color-002" data-cid="n56">
-              <div className="block mb-6 text-primary text-[2.5rem] leading-[3.0625rem] [text-shadow:var(--accent)_0px_0px_10px]" data-cid="n57">
-                <i className="inline-block [font-family:'Font_Awesome_6_Free'] font-black leading-10 before:content-[''] before:text-primary before:text-[2.5rem] before:font-black before:leading-10 before:text-center" data-cid="n58" />
-              </div>
-              {" "}
-              <h3 className="block mb-4 [font-family:Outfit,_sans-serif] text-2xl font-extrabold leading-7.5 tracking-[-0.48px] uppercase" data-cid="n59" data-component="heading">
-                VISION
-              </h3>
-              {" "}
-              <p className="block text-color-001 text-[0.9375rem] leading-[1.625rem]" data-cid="n60">
-                To be globally recognized as a premier benchmark for visual effects storytelling, redefining cinema boundaries through the constant integration of emerging tech and art.
-              </p>
-              {" "}
-            </div>
-            {" "}
-            <div className="border border-solid border-border block py-14 px-10 rounded-sm text-center bg-color-002" data-cid="n61">
-              <div className="block mb-6 text-primary text-[2.5rem] leading-[3.0625rem] [text-shadow:var(--accent)_0px_0px_10px]" data-cid="n62">
-                <i className="inline-block [font-family:'Font_Awesome_6_Free'] font-black leading-10 before:content-[''] before:text-primary before:text-[2.5rem] before:font-black before:leading-10 before:text-center" data-cid="n63" />
-              </div>
-              {" "}
-              <h3 className="block mb-4 [font-family:Outfit,_sans-serif] text-2xl font-extrabold leading-7.5 tracking-[-0.48px] uppercase" data-cid="n64" data-component="heading">
-                MISSION
-              </h3>
-              {" "}
-              <p className="block text-color-001 text-[0.9375rem] leading-[1.625rem]" data-cid="n65">
-                To deliver seamless, high-fidelity visual assets by fostering an ecosystem of creative freedom, equipping our artists with elite pipelines, and maintaining ironclad delivery compliance.
-              </p>
-              {" "}
-            </div>
-            {" "}
-          </div>
-          {" "}
-        </div>
-        {" "}
-      </section>
+
       <section className="border-t border-solid border-t-border border-b border-b-border block relative py-32 bg-color-002 max-lg:py-16" data-cid="n66" id="services">
         <div className="block max-w-320 px-8 max-lg:max-w-full max-lg:px-6 2xl:mx-80" data-cid="n67">
           <div className="block relative mb-16 text-center max-lg:mb-10" data-cid="n68">
