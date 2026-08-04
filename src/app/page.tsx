@@ -389,8 +389,9 @@ export default function Page() {
           </h2>
           {" "}
           <p className="block relative z-2 mb-12 text-clr-25 text-lg leading-5.5" data-cid="n597">
-            Have a project in mind? I'm ready to turn your ideas into stunning visuals. Let's create something that stands out.
-          </p>
+            From feature film VFX and CGI set extensions to high-end commercial motion graphics, let’s bring your boldest creative visions to life.
+
+            Start a Project          </p>
           {" "}
           <div className="flex flex-wrap justify-center gap-4 max-lg:flex-col" data-cid="n598">
             <a className="h-[2.5625rem] border border-solid border-clr-4 flex relative z-1 py-3 px-8 rounded-[50px] justify-center items-center overflow-hidden text-background text-[0.8125rem] font-bold leading-[0.9375rem] tracking-[1.28px] uppercase bg-primary shadow-[var(--clr-10)_0px_0px_20px_0px] cursor-pointer" data-cid="n599" data-component="button" href="/contact">
