@@ -10,6 +10,7 @@ export function CustomCursor() {
   const [isVisible, setIsVisible] = useState(false);
 
   const mousePos = useRef({ x: 0, y: 0 });
+  const logoPos = useRef({ x: 0, y: 0 });
   const spiderPos = useRef({ x: 0, y: 0 });
 
   useEffect(() => {
@@ -19,8 +20,10 @@ export function CustomCursor() {
     const onMouseMove = (e: MouseEvent) => {
       if (!isVisible) setIsVisible(true);
       mousePos.current = { x: e.clientX, y: e.clientY };
-      if (cursorRef.current) {
-        cursorRef.current.style.transform = `translate3d(${e.clientX}px, ${e.clientY}px, 0)`;
+      // Initial positioning to prevent jump
+      if (logoPos.current.x === 0 && logoPos.current.y === 0) {
+        logoPos.current = { x: e.clientX, y: e.clientY };
+        spiderPos.current = { x: e.clientX, y: e.clientY + 150 };
       }
     };
 
@@ -54,24 +57,32 @@ export function CustomCursor() {
     let animationFrameId: number;
     let time = 0;
     const render = () => {
-      time += 0.05;
+      time += 0.01;
 
-      // Target position for Spider-Man is always 150px below the cursor
-      const targetX = mousePos.current.x;
-      const targetY = mousePos.current.y + 150;
+      // 1. Smoothly move the Spider Logo (Cursor) towards the real mouse position
+      logoPos.current.x += (mousePos.current.x - logoPos.current.x) * 0.25;
+      logoPos.current.y += (mousePos.current.y - logoPos.current.y) * 0.25;
 
-      // Lerp physics for Spider-Man to smoothly float to the target position
-      spiderPos.current.x += (targetX - spiderPos.current.x) * 0.12;
-      spiderPos.current.y += (targetY - spiderPos.current.y) * 0.12;
+      if (cursorRef.current) {
+        cursorRef.current.style.transform = `translate3d(${logoPos.current.x}px, ${logoPos.current.y}px, 0)`;
+      }
+
+      // 2. Target position for Spider-Man is always 150px below the Spider Logo (not the raw mouse)
+      const targetX = logoPos.current.x;
+      const targetY = logoPos.current.y + 150;
+
+      // 3. Lerp physics for Spider-Man to smoothly float to his target (slower than the logo so it looks heavy)
+      spiderPos.current.x += (targetX - spiderPos.current.x) * 0.08;
+      spiderPos.current.y += (targetY - spiderPos.current.y) * 0.08;
 
       if (spiderRef.current) {
         spiderRef.current.style.transform = `translate3d(${spiderPos.current.x}px, ${spiderPos.current.y}px, 0)`;
       }
 
-      // Draw the dynamic, curved web line using a Bezier curve
+      // Draw the dynamic, curved web line connecting the Logo and Spider-Man
       if (pathRef.current) {
-        const startX = mousePos.current.x;
-        const startY = mousePos.current.y;
+        const startX = logoPos.current.x;
+        const startY = logoPos.current.y;
         const endX = spiderPos.current.x;
         const endY = spiderPos.current.y;
 
