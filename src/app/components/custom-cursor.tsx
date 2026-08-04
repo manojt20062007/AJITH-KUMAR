@@ -4,8 +4,13 @@ import { useEffect, useState, useRef } from "react";
 
 export function CustomCursor() {
   const cursorRef = useRef<HTMLDivElement>(null);
+  const spiderRef = useRef<HTMLDivElement>(null);
+  const pathRef = useRef<SVGPathElement>(null);
   const [isHovering, setIsHovering] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
+
+  const mousePos = useRef({ x: 0, y: 0 });
+  const spiderPos = useRef({ x: 0, y: 0 });
 
   useEffect(() => {
     // Only run on devices with a fine pointer (mouse)
@@ -13,9 +18,9 @@ export function CustomCursor() {
 
     const onMouseMove = (e: MouseEvent) => {
       if (!isVisible) setIsVisible(true);
+      mousePos.current = { x: e.clientX, y: e.clientY };
       if (cursorRef.current) {
         cursorRef.current.style.transform = `translate3d(${e.clientX}px, ${e.clientY}px, 0)`;
-        cursorRef.current.style.setProperty('--cy', `${e.clientY}px`);
       }
     };
 
@@ -46,47 +51,92 @@ export function CustomCursor() {
     document.addEventListener("mouseenter", onMouseEnter);
     document.addEventListener("mouseover", onMouseOver);
 
+    let animationFrameId: number;
+    let time = 0;
+    const render = () => {
+      time += 0.05;
+
+      // Target position for Spider-Man is always 150px below the cursor
+      const targetX = mousePos.current.x;
+      const targetY = mousePos.current.y + 150;
+
+      // Lerp physics for Spider-Man to smoothly float to the target position
+      spiderPos.current.x += (targetX - spiderPos.current.x) * 0.12;
+      spiderPos.current.y += (targetY - spiderPos.current.y) * 0.12;
+
+      if (spiderRef.current) {
+        spiderRef.current.style.transform = `translate3d(${spiderPos.current.x}px, ${spiderPos.current.y}px, 0)`;
+      }
+
+      // Draw the dynamic, curved web line using a Bezier curve
+      if (pathRef.current) {
+        const startX = mousePos.current.x;
+        const startY = mousePos.current.y;
+        const endX = spiderPos.current.x;
+        const endY = spiderPos.current.y;
+
+        // Control point for the Bezier curve (midpoint)
+        let midX = (startX + endX) / 2;
+        let midY = (startY + endY) / 2;
+
+        // Calculate physics bend: when moving fast, the line bows outwards due to "air resistance"
+        const diffX = targetX - spiderPos.current.x;
+
+        // Apply a dynamic sag offset that curves the line based on momentum + subtle sine wave wobble
+        midX -= diffX * 0.4; // bow out in opposite direction of movement
+        midY += 25 + Math.sin(time) * 5; // gravity sag + subtle wind wobble
+
+        // Update SVG path data dynamically (M = Move To, Q = Quadratic Curve To)
+        pathRef.current.setAttribute("d", `M ${startX} ${startY} Q ${midX} ${midY} ${endX} ${endY}`);
+      }
+
+      animationFrameId = requestAnimationFrame(render);
+    };
+    render();
+
     return () => {
       window.removeEventListener("mousemove", onMouseMove);
       document.removeEventListener("mouseleave", onMouseLeave);
       document.removeEventListener("mouseenter", onMouseEnter);
       document.removeEventListener("mouseover", onMouseOver);
+      cancelAnimationFrame(animationFrameId);
     };
   }, [isVisible]);
 
   if (!isVisible) return null;
 
   return (
-    <div ref={cursorRef} className="fixed top-0 left-0 pointer-events-none z-[999999] will-change-transform">
-      <div 
-        className={`absolute top-0 left-0 w-2 h-2 bg-primary rounded-full -translate-x-1/2 -translate-y-1/2 transition-transform duration-100 ease-out ${isHovering ? "scale-[0.5]" : "scale-100"}`}
-        style={{ mixBlendMode: 'difference' }}
-      />
-      <div 
-        className={`absolute top-0 left-0 w-8 h-8 border-[1.5px] border-primary rounded-full -translate-x-1/2 -translate-y-1/2 transition-all duration-300 ease-out ${isHovering ? "scale-[1.6] bg-primary/10 border-primary/30" : "scale-100"}`}
-      />
+    <>
+      <div ref={cursorRef} className="fixed top-0 left-0 pointer-events-none z-[999999] will-change-transform">
+        <div
+          className={`absolute top-0 left-0 w-20 h-20 -translate-x-1/2 -translate-y-1/2 transition-transform duration-300 ease-out flex items-center justify-center ${isHovering ? "scale-[1.5] drop-shadow-[0_0_8px_var(--primary)]" : "scale-100 drop-shadow-md"}`}
+        >
+          <img src="/1.png" alt="Cursor" className="w-full h-full object-contain pointer-events-none" />
+        </div>
+      </div>
 
-      <style>{`
-        @keyframes spiderSwing {
-          0% { transform: translateX(-50%) rotate(-10deg); }
-          50% { transform: translateX(-50%) rotate(10deg); }
-          100% { transform: translateX(-50%) rotate(-10deg); }
-        }
-        .spider-container {
-          animation: spiderSwing 3s ease-in-out infinite;
-          transform-origin: top center;
-        }
-      `}</style>
+      {/* Dynamic Web Line SVG Layer */}
+      <svg className="fixed top-0 left-0 w-full h-full pointer-events-none z-[999997]" style={{ willChange: 'contents' }}>
+        <path ref={pathRef} stroke="rgba(255, 255, 255, 0.5)" strokeWidth="1.5" fill="none" strokeLinecap="round" />
+      </svg>
 
-      {/* Spider-Man Hanging Graphic */}
-      <div className="spider-container absolute top-0 left-0 flex flex-col items-center">
-        {/* Web line hanging down from cursor */}
-        <div className="w-[2px] h-24 bg-white/60 origin-top"></div>
-        {/* Spider-Man graphic upside down at the bottom of the web */}
-        <div className="z-50 flex justify-center w-24 -mt-2">
+      <div ref={spiderRef} className="fixed top-0 left-0 pointer-events-none z-[999998] will-change-transform">
+        <style>{`
+          @keyframes spidermanBob {
+            0%, 100% { transform: translate(-50%, -10px) rotate(0deg); }
+            50% { transform: translate(-50%, -10px) rotate(5deg); }
+          }
+          .spider-graphic {
+            animation: spidermanBob 4s ease-in-out infinite;
+            transform-origin: top center;
+          }
+        `}</style>
+
+        {/* Spider-Man Hanging Graphic */}
+        <div className="spider-graphic z-50 absolute top-0 left-0 flex flex-col items-center w-24">
           <img src="/spiderman.png" alt="Spider-Man" className="w-full h-auto drop-shadow-2xl object-contain pointer-events-none" />
         </div>
       </div>
-    </div>
+    </>
   );
 }
