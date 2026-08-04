@@ -208,7 +208,8 @@ export default function Page() {
         <ScrollRevealObserver />
         <div className="h-full block absolute top-0 inset-x-0 z-0 min-w-0 overflow-hidden bg-color-011" data-cid="n23">
           <div className="absolute inset-0 pointer-events-none" style={{ transform: "translate3d(calc(var(--px, 0) * -20px), calc(var(--py, 0) * -20px), 0)" }}>
-            <div className="w-[160rem] h-300 flex absolute -top-30 -left-[20rem] z-0 opacity-35 gap-6 transform-[matrix(1.08329,-0.191013,0.191013,1.08329,0,0)] origin-[832px_600px] max-md:w-[487.5px] max-md:h-304.5 max-md:-top-[7.6125rem] max-md:origin-[243.75px_609px] md:max-lg:w-[62.4rem] md:max-lg:h-384 md:max-lg:-top-[9.6rem] md:max-lg:origin-[499.195px_768px] 2xl:w-[200rem] 2xl:h-405 2xl:-top-40.5 2xl:origin-[1248px_810px]" data-cid="n24">
+            <div className="w-[160rem] h-300 flex absolute -top-30 -left-[20rem] z-0 opacity-35 gap-6 transform-[matrix(1.08329,-0.191013,0.191013,1.08329,0,0)] origin-[832px_600px] max-md:w-[150vw] max-md:-left-[10vw] max-md:h-304.5 max-md:-top-[7.6125rem] max-md:origin-[243.75px_609px] md:max-lg:w-[62.4rem] md:max-lg:h-384 md:max-lg:-top-[9.6rem] md:max-lg:origin-[499.195px_768px] 2xl:w-[200rem] 2xl:h-405 2xl:-top-40.5 2xl:origin-[1248px_810px]" data-cid="n24">
+
               {Logo_data.map((d, i) => <Logo key={i} d={d} cids={Logo_cids[i]} styles={Logo_styles[i]} />)}
               {" "}
               <div className="w-99.5 h-300 flex flex-col gap-6 [animation-name:scrollUp] [animation-duration:40s] [animation-timing-function:linear] [animation-iteration-count:infinite] max-md:w-[103.9px] max-md:h-304.5 md:max-lg:w-[14.475rem] md:max-lg:h-384 2xl:w-151.5 2xl:h-405" data-cid="n52">
