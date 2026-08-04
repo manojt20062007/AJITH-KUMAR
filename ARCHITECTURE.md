@@ -39,7 +39,7 @@ Recipes identify higher-level patterns such as repeated cards, logo clouds, navi
 ## Routes
 
 - / - Ajith KumarSTUDIO | Premium Visual Effects & Post Production
-- /about.html - ABOUT US | Ajith KumarSTUDIO
+- /about.html - About Us | Ajith KumarSTUDIO
 - /career.html - CAREERS | Ajith KumarSTUDIO
 - /contact.html - CONTACT US | Ajith KumarSTUDIO
 - /index.html - Ajith KumarSTUDIO | Premium Visual Effects & Post Production

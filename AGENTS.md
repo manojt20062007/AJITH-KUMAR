@@ -35,7 +35,7 @@ This is a generated ditto.site clone app for https://Ajith Kumarvfx.com/. It is 
 ## Routes
 
 - / - Ajith KumarSTUDIO | Premium Visual Effects & Post Production
-- /about.html - ABOUT US | Ajith KumarSTUDIO
+- /about.html - About Us | Ajith KumarSTUDIO
 - /career.html - CAREERS | Ajith KumarSTUDIO
 - /contact.html - CONTACT US | Ajith KumarSTUDIO
 - /index.html - Ajith KumarSTUDIO | Premium Visual Effects & Post Production
